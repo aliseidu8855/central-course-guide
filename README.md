@@ -43,12 +43,19 @@ Ensure MongoDB is running on your machine. By default, the application looks for
     *(Edit `.env` if your MongoDB setup is different)*.
 
 5.  **Seed the Database**:
-    Initialize the database with course and school data:
+    Initialize the database with the core school and programme data:
     ```bash
     python seed_database.py
     ```
 
-6.  Start the backend server:
+6.  **Enrich the Data (Optional but Recommended)**:
+    Add detailed descriptions, duration info, and subjects:
+    ```bash
+    python update_school_descriptions.py
+    python enrich_programmes.py
+    ```
+
+7.  Start the backend server:
     ```bash
     python main.py
     ```
@@ -69,6 +76,14 @@ Ensure MongoDB is running on your machine. By default, the application looks for
     npm run dev
     ```
     The web app will be available at `http://localhost:5173`.
+
+---
+
+## Admin Panel
+
+The backend includes an embedded admin panel for reviewing and editing the scraped data:
+- **URL**: `http://localhost:8000/admin-panel`
+- **Features**: Filter by school, edit programme details, and mark data as "reviewed".
 
 ---
 
