@@ -6,6 +6,7 @@ A comprehensive guide for university courses, featuring a React frontend and a F
 
 - `frontend/`: React application (Vite).
 - `backend/`: FastAPI application (Python).
+- `database_dump/`: JSON data exports for easy database setup.
 
 ---
 
@@ -42,20 +43,13 @@ Ensure MongoDB is running on your machine. By default, the application looks for
     ```
     *(Edit `.env` if your MongoDB setup is different)*.
 
-5.  **Seed the Database**:
-    Initialize the database with the core school and programme data:
+5.  **Import the Database**:
+    Instead of scraping the website again, you can just import the provided data:
     ```bash
-    python seed_database.py
+    python import_database.py
     ```
 
-6.  **Enrich the Data (Optional but Recommended)**:
-    Add detailed descriptions, duration info, and subjects:
-    ```bash
-    python update_school_descriptions.py
-    python enrich_programmes.py
-    ```
-
-7.  Start the backend server:
+6.  Start the backend server:
     ```bash
     python main.py
     ```
@@ -81,13 +75,16 @@ Ensure MongoDB is running on your machine. By default, the application looks for
 
 ## Admin Panel
 
-The backend includes an embedded admin panel for reviewing and editing the scraped data:
+The backend includes an embedded admin panel for reviewing and editing the data:
 - **URL**: `http://localhost:8000/admin-panel`
 - **Features**: Filter by school, edit programme details, and mark data as "reviewed".
 
 ---
 
-## Development
+## Advanced: Scraper Scripts
 
-- **API Documentation**: Once the backend is running, visit `http://localhost:8000/docs` for the interactive Swagger UI.
-- **Environment**: Make sure to keep the `.env` file secure and never commit it to version control.
+If you want to re-scrape the latest data from the university website:
+1. `python seed_database.py` (Base schools and programmes)
+2. `python update_school_descriptions.py` (Official descriptions)
+3. `python enrich_programmes.py` (Detailed course info)
+4. `python export_database.py` (Save current DB state to `database_dump/`)

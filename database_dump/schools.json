@@ -1,0 +1,192 @@
+[
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d767368"
+    },
+    "name": "School of Pharmacy",
+    "code": "SOP",
+    "slug": "school-of-pharmacy",
+    "website_slug": "sop",
+    "url": "https://central.edu.gh/schoolpage/sop",
+    "description": "Established in 2008, the School of Pharmacy located on the Miotso Campus has a long history of commitment to excellence in education and research, attracting outstanding faculty, and offering one of the nation's top professional programmes, in the Bachelor of Pharmacy (BPharm) programme. The BPharm programme has been upgraded to the Doctor of Pharmacy (PharmD) Programme and has since rolled out from the 2018/19 academic year.\n\nOur mission is to achieve excellence in our professional and graduate programs through innovative education and leading-edge research. We seek to graduate outstanding future pharmacists and scientists who will improve human health, and foster exemplary research.\n\nThe vision is to train ethical, excellent, and transformational pharmacists and scientists with the competencies to provide quality pharmaceutical care.\n\nOur core value is, Devotion to God and Humanity. Excellence in Training and Service. Professionalism with Integrity.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d767369"
+    },
+    "name": "Central Law School",
+    "code": "CLS",
+    "slug": "central-law-school",
+    "website_slug": "facultyoflaw",
+    "url": "https://central.edu.gh/schoolpage/facultyoflaw",
+    "description": "The Central Law School was established as part of the university's commitment to legal education and the pursuit of justice. The school provides a rigorous academic programme designed to equip students with the knowledge, analytical skills, and ethical grounding necessary for the legal profession.\n\nThe faculty comprises experienced legal scholars and practitioners who bring both academic expertise and practical experience to the classroom. The curriculum covers core areas of law including Constitutional Law, Criminal Law, Contract Law, Land Law, and International Law.\n\nThe Central Law School is committed to producing competent, ethical, and socially responsible lawyers who can contribute to the administration of justice and the development of society.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d76736a"
+    },
+    "name": "School of Medical Sciences",
+    "code": "SMS",
+    "slug": "school-of-medical-sciences",
+    "website_slug": "somah",
+    "url": "https://central.edu.gh/schoolpage/somah",
+    "description": "The School of Medical Sciences at Central University was established to address the growing demand for well-trained healthcare professionals in Ghana and across Africa. The school offers programmes in Physician Assistantship and other health-related fields, producing competent healthcare workers.\n\nThe school emphasizes a blend of theoretical knowledge and practical clinical experience, ensuring that graduates are prepared to deliver quality healthcare services. Students benefit from clinical rotations at partner hospitals and health facilities across Ghana.\n\nThe School of Medical Sciences is committed to excellence in medical education, research, and community health service, with a vision to become a leading centre for health sciences education in West Africa.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d76736b"
+    },
+    "name": "School of Nursing & Midwifery",
+    "code": "SNM",
+    "slug": "school-of-nursing-and-midwifery",
+    "website_slug": "snm",
+    "url": "https://central.edu.gh/schoolpage/snm",
+    "description": "The School of Nursing and Midwifery at Central University trains competent and compassionate nursing and midwifery professionals. Established to respond to the critical need for skilled healthcare personnel, the school offers programmes that combine rigorous academic instruction with hands-on clinical practice.\n\nStudents gain practical experience through clinical placements at leading hospitals and healthcare facilities, ensuring they are well-prepared to provide quality patient care upon graduation. The school's faculty comprises experienced nurse educators and clinical practitioners.\n\nThe School of Nursing and Midwifery is dedicated to producing nurses and midwives who are technically skilled, ethically grounded, and devoted to improving health outcomes in their communities.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d76736c"
+    },
+    "name": "School of Engineering & Technology",
+    "code": "SET",
+    "slug": "school-of-engineering-and-technology",
+    "website_slug": "soeat",
+    "url": "https://central.edu.gh/schoolpage/soeat",
+    "description": "The School of Engineering and Technology (SET) at Central University offers a range of undergraduate programmes in engineering and technology disciplines. The school is dedicated to producing graduates who combine strong theoretical foundations with practical skills to solve real-world engineering challenges.\n\nProgrammes are designed to meet the needs of Ghana's growing technology sector, with emphasis on hands-on laboratory work, industry collaboration, and innovative problem solving. Students have access to modern laboratories and workshop facilities.\n\nThe School of Engineering and Technology aims to be a centre of excellence in engineering education and applied research, producing competent engineers and technologists for national development.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d76736d"
+    },
+    "name": "Faculty of Arts & Social Sciences",
+    "code": "FASS",
+    "slug": "faculty-of-arts-and-social-sciences",
+    "website_slug": "fass",
+    "url": "https://central.edu.gh/schoolpage/fass",
+    "description": "The Faculty of Arts and Social Sciences (FASS) offers a diverse range of undergraduate programmes across the humanities and social sciences. The faculty is committed to providing a broad-based liberal arts education that develops critical thinking, communication skills, and a deep understanding of society and culture.\n\nProgrammes span areas including Communication Studies, Psychology, Political Science, Theology, and Social Work. The faculty fosters an interdisciplinary approach, encouraging students to explore connections across different fields of study.\n\nFASS prepares graduates who are well-rounded, analytically capable, and ready to contribute meaningfully to public discourse, governance, social development, and community transformation.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d76736e"
+    },
+    "name": "School of Architecture & Design",
+    "code": "SAD",
+    "slug": "school-of-architecture-and-design",
+    "website_slug": "sad",
+    "url": "https://central.edu.gh/schoolpage/sad",
+    "description": "The School of Architecture and Design (SAD) at Central University is committed to training creative and technically skilled professionals in architecture and related design disciplines. The school offers programmes that blend artistic creativity with engineering principles and sustainable design practices.\n\nStudents benefit from a studio-based learning environment, industry-led projects, and exposure to contemporary architectural practice. The curriculum integrates digital design tools, building technology, environmental sustainability, and urban planning.\n\nThe School of Architecture and Design aims to produce graduates who can design innovative, functional, and sustainable built environments that serve communities and contribute to Ghana's architectural landscape.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d76736f"
+    },
+    "name": "Central Business School",
+    "code": "CBS",
+    "slug": "central-business-school",
+    "website_slug": "cbs",
+    "url": "https://central.edu.gh/schoolpage/cbs",
+    "description": "The Central Business School (CBS) is one of the flagship academic units of Central University, offering a comprehensive range of business and management programmes. The school is dedicated to developing business leaders with strong analytical, entrepreneurial, and ethical competencies.\n\nProgrammes cover core business disciplines including Accounting, Banking and Finance, Marketing, Human Resource Management, and Management and Public Administration. The curriculum integrates contemporary business theory with practical case studies and industry attachments.\n\nCBS is committed to producing graduates who are well-equipped to excel in the competitive global business environment while maintaining high ethical standards and a commitment to social responsibility.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d767370"
+    },
+    "name": "School of Graduate Studies & Research",
+    "code": "SGS",
+    "slug": "school-of-graduate-studies-and-research",
+    "website_slug": "sogs",
+    "url": "https://central.edu.gh/schoolpage/sogs",
+    "description": "The School of Graduate Studies and Research coordinates postgraduate academic programmes across Central University. The school provides an environment for advanced scholarship, research, and professional development at the master's and doctoral levels.\n\nThe school oversees the quality and standards of all graduate programmes, ensuring that they meet the requirements of the Ghana Tertiary Education Commission (GTEC) and international benchmarks. Graduate students benefit from research mentorship, seminar series, and access to research resources.\n\nThe School of Graduate Studies and Research is committed to fostering a culture of academic inquiry and producing graduates who can contribute original knowledge to their respective fields.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8c8cf2781475d767371"
+    },
+    "name": "Centre for Distance & Professional Education",
+    "code": "CDPE",
+    "slug": "centre-for-distance-and-professional-education",
+    "website_slug": "code",
+    "url": "https://central.edu.gh/schoolpage/code",
+    "description": "The Centre for Distance and Professional Education (CDPE) extends Central University's educational reach beyond the traditional campus. The centre offers flexible learning modes \u2014 including distance education, weekend programmes, and sandwich programmes \u2014 designed for working professionals and students who cannot attend regular weekday classes.\n\nCDPE delivers the same quality curricula as the on-campus programmes, supported by learning centres across the country. The centre leverages technology and blended learning approaches to ensure effective teaching and learning.\n\nThe Centre for Distance and Professional Education is dedicated to making quality higher education accessible to all, regardless of location or work schedule, supporting lifelong learning and professional advancement.",
+    "dean": null,
+    "location": "Miotso Campus, Dawhenya, Accra",
+    "created_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-08T22:38:00.164Z"
+    }
+  }
+]

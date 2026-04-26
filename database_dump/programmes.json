@@ -1,0 +1,1906 @@
+[
+  {
+    "_id": {
+      "$oid": "69d6d8cacf2781475d767372"
+    },
+    "name": "Doctor of Pharmacy (pharm.d) Top-up",
+    "raw_name": "DOCTOR OF PHARMACY (PHARM.D) TOP-UP",
+    "slug": "doctor-of-pharmacy-pharmd-top-up",
+    "school_id": "69d6d8c8cf2781475d767368",
+    "school_name": "School of Pharmacy",
+    "source_url": "https://central.edu.gh/expand/2279",
+    "source_id": "2279",
+    "code": null,
+    "duration_years": 2,
+    "description": "The Doctor of Pharmacy (PharmD) Top-up programme is designed for qualified pharmacists who wish to upgrade their Bachelor of Pharmacy degree to a Doctor of Pharmacy. The programme focuses on advanced clinical pharmacy practice, pharmaceutical care, and evidence-based medicine, preparing graduates for leadership roles in pharmacy practice.",
+    "career_paths": [
+      "Clinical Pharmacist",
+      "Hospital Pharmacy Director",
+      "Pharmaceutical Industry Consultant",
+      "Drug Regulatory Affairs Specialist",
+      "Pharmacy Lecturer",
+      "Public Health Pharmacist"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:02.639Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.393Z"
+    },
+    "degree_type": "PharmD",
+    "entry_requirements": [
+      "Bachelor of Pharmacy (BPharm) degree from an accredited institution",
+      "Valid Pharmacy Council registration",
+      "Minimum of one year post-qualification experience"
+    ],
+    "subjects": [
+      "Advanced Pharmacotherapeutics",
+      "Clinical Pharmacy Practice",
+      "Pharmacokinetics & Drug Metabolism",
+      "Research Methods in Pharmacy",
+      "Pharmaceutical Care Management",
+      "Drug Information Services",
+      "Pharmacoepidemiology",
+      "Pharmacy Law & Ethics (Advanced)",
+      "Clinical Toxicology",
+      "Pharmacy Practice Experience"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8cacf2781475d767373"
+    },
+    "name": "Pharmacy",
+    "raw_name": "PHARMACY",
+    "slug": "pharmacy",
+    "school_id": "69d6d8c8cf2781475d767368",
+    "school_name": "School of Pharmacy",
+    "source_url": "https://central.edu.gh/expand/517",
+    "source_id": "517",
+    "code": null,
+    "duration_years": 4,
+    "description": "The Bachelor of Pharmacy programme prepares students for a career in pharmaceutical sciences. Students learn the science of medications, how drugs interact with the body, patient counselling, drug dispensing, and pharmaceutical care. Graduates are eligible to sit for the Pharmacy Council of Ghana licensing examination.",
+    "career_paths": [
+      "Community Pharmacist",
+      "Hospital Pharmacist",
+      "Pharmaceutical Sales Representative",
+      "Drug Manufacturing Specialist",
+      "Quality Assurance Pharmacist",
+      "Regulatory Affairs Officer",
+      "Pharmacy Educator"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:02.639Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-22T20:47:52.183Z"
+    },
+    "degree_type": "BPharm",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, Chemistry, Biology/Physics",
+      "Aggregate score of 24 or better (WASSCE) / 16 or better (SSSCE)",
+      "Must pass a pre-pharmacy interview"
+    ],
+    "subjects": [
+      "Pharmaceutical Chemistry",
+      "Pharmacology",
+      "Pharmacognosy",
+      "Pharmaceutics & Drug Formulation",
+      "Human Anatomy & Physiology",
+      "Biochemistry",
+      "Microbiology",
+      "Pathophysiology",
+      "Pharmacy Practice & Dispensing",
+      "Clinical Pharmacy",
+      "Pharmacy Law & Ethics",
+      "Pharmaceutical Analysis",
+      "Public Health Pharmacy",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8cdcf2781475d767374"
+    },
+    "name": "Laws",
+    "raw_name": "LAWS",
+    "slug": "laws",
+    "school_id": "69d6d8c8cf2781475d767369",
+    "school_name": "Central Law School",
+    "source_url": "https://central.edu.gh/expand/1791",
+    "source_id": "1791",
+    "code": null,
+    "duration_years": 4,
+    "description": "The Bachelor of Laws (LLB) programme provides a comprehensive legal education grounded in Ghanaian law, Commonwealth legal traditions, and international law. Students develop analytical, advocacy, and legal research skills. Graduates who pass the Ghana School of Law entrance examination can proceed to the professional law course to qualify as Barristers and Solicitors.",
+    "career_paths": [
+      "Barrister & Solicitor (after Ghana School of Law)",
+      "Corporate Lawyer",
+      "Magistrate / Judge",
+      "Legal Consultant",
+      "Human Rights Advocate",
+      "State Attorney",
+      "Legal Academic / Lecturer",
+      "Compliance Officer"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:05.813Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.400Z"
+    },
+    "degree_type": "LLB",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, and three other subjects",
+      "Aggregate score of 24 or better (WASSCE) / 16 or better (SSSCE)",
+      "Mature applicants with relevant qualifications considered"
+    ],
+    "subjects": [
+      "Constitutional Law of Ghana",
+      "Criminal Law",
+      "Contract Law",
+      "Law of Torts",
+      "Land Law & Conveyancing",
+      "Equity & Trusts",
+      "Company Law",
+      "Family Law",
+      "Administrative Law",
+      "International Law",
+      "Evidence Law",
+      "Legal Methods & Writing",
+      "Labour Law",
+      "Environmental Law",
+      "Moot Court Practice",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8d1cf2781475d767375"
+    },
+    "name": "Public Health",
+    "raw_name": "PUBLIC HEALTH",
+    "slug": "public-health",
+    "school_id": "69d6d8c8cf2781475d76736a",
+    "school_name": "School of Medical Sciences",
+    "source_url": "https://central.edu.gh/expand/570",
+    "source_id": "570",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Public Health programme equips students with the knowledge and skills to promote community health, prevent disease, and manage health systems. The curriculum covers epidemiology, biostatistics, environmental health, health policy and management. Students gain practical experience through field attachments at hospitals and public health agencies.",
+    "career_paths": [
+      "Public Health Officer",
+      "Epidemiologist",
+      "Health Promotion Specialist",
+      "Environmental Health Officer",
+      "NGO Health Programme Manager",
+      "Health Policy Analyst",
+      "Disease Surveillance Officer",
+      "WHO/UN Health Agency Staff"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:09.214Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.402Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, Integrated Science/Biology",
+      "Aggregate score of 24 or better (WASSCE)",
+      "Chemistry is an advantage"
+    ],
+    "subjects": [
+      "Principles of Public Health",
+      "Epidemiology",
+      "Biostatistics",
+      "Environmental Health",
+      "Health Promotion & Education",
+      "Health Policy & Management",
+      "Nutrition & Food Science",
+      "Reproductive & Child Health",
+      "Communicable Disease Control",
+      "Non-Communicable Diseases",
+      "Community Health Practice",
+      "Health Information Systems",
+      "Research Methods",
+      "Field Attachment"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8d1cf2781475d767376"
+    },
+    "name": "Physician Assistantship",
+    "raw_name": "PHYSICIAN ASSISTANTSHIP",
+    "slug": "physician-assistantship",
+    "school_id": "69d6d8c8cf2781475d76736a",
+    "school_name": "School of Medical Sciences",
+    "source_url": "https://central.edu.gh/expand/568",
+    "source_id": "568",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSC Physician Assistantship programme trains mid-level medical practitioners who provide primary healthcare services in rural and undeserved communities. Students learn clinical medicine, diagnostic skills, minor surgery, and emergency care. Graduates work alongside medical doctors and independently at health centers and CHIPS compounds.\n\nIn recent times, Physician Assistant-ship has been suspended in Central university so this info is based on the previous students who offered this course before the suspension",
+    "career_paths": [
+      "Physician Assistant (Medical)",
+      "Community Health Officer",
+      "Emergency Care Provider",
+      "Health Centre Manager",
+      "Clinical Research Assistant",
+      "Public Health Practitioner"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:09.214Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-22T20:46:52.379Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, Biology, Chemistry",
+      "Aggregate score of 24 or better (WASSCE)",
+      "Physics is an advantage"
+    ],
+    "subjects": [
+      "Human Anatomy",
+      "Human Physiology",
+      "Biochemistry",
+      "Clinical Medicine",
+      "Diagnostic Methods",
+      "Pharmacology & Therapeutics",
+      "Minor Surgery",
+      "Emergency Medicine",
+      "Obstetrics & Gynaecology",
+      "Paediatrics",
+      "Internal Medicine",
+      "Community Medicine",
+      "Medical Ethics",
+      "Clinical Rotations"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8d3cf2781475d767377"
+    },
+    "name": "Nursing",
+    "raw_name": "NURSING",
+    "slug": "nursing",
+    "school_id": "69d6d8c8cf2781475d76736b",
+    "school_name": "School of Nursing & Midwifery",
+    "source_url": "https://central.edu.gh/expand/566",
+    "source_id": "566",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Nursing programme prepares professional nurses with strong clinical, ethical, and leadership skills. The programme combines classroom instruction with extensive clinical placements in hospitals and community settings. Graduates are eligible to write the Nursing and Midwifery Council of Ghana licensing examination.",
+    "career_paths": [
+      "Registered General Nurse (RGN)",
+      "Hospital Staff Nurse",
+      "Community Health Nurse",
+      "Nurse Educator / Lecturer",
+      "Nursing Administrator",
+      "Public Health Nurse",
+      "International Nursing (UK, USA, Canada)",
+      "Clinical Nurse Specialist"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:11.959Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.404Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, Integrated Science, Biology/Chemistry",
+      "Aggregate score of 24 or better (WASSCE)"
+    ],
+    "subjects": [
+      "Anatomy & Physiology",
+      "Fundamentals of Nursing",
+      "Medical-Surgical Nursing",
+      "Pharmacology for Nurses",
+      "Community Health Nursing",
+      "Maternal & Child Health Nursing",
+      "Psychiatric/Mental Health Nursing",
+      "Paediatric Nursing",
+      "Nursing Research",
+      "Nursing Ethics & Law",
+      "Leadership & Management in Nursing",
+      "Health Assessment",
+      "Clinical Practicum"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8d7cf2781475d767378"
+    },
+    "name": "Civil Engineering",
+    "raw_name": "CIVIL ENGINEERING",
+    "slug": "civil-engineering",
+    "school_id": "69d6d8c8cf2781475d76736c",
+    "school_name": "School of Engineering & Technology",
+    "source_url": "https://central.edu.gh/expand/1816",
+    "source_id": "1816",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Civil Engineering programme provides comprehensive training in the design, construction, and maintenance of physical infrastructure including buildings, roads, bridges, dams, and water supply systems. The curriculum combines engineering science, design studios, and hands-on laboratory and fieldwork experience.",
+    "career_paths": [
+      "Structural Engineer",
+      "Site Engineer / Construction Manager",
+      "Highway / Transportation Engineer",
+      "Water Resources Engineer",
+      "Geotechnical Engineer",
+      "Quantity Surveyor",
+      "Environmental Engineer",
+      "Project Manager (Construction)",
+      "Government Works Department Engineer"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:15.134Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.406Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics, Elective Mathematics, Physics",
+      "Aggregate score of 24 or better (WASSCE)",
+      "Chemistry is required"
+    ],
+    "subjects": [
+      "Engineering Mathematics",
+      "Engineering Mechanics (Statics & Dynamics)",
+      "Strength of Materials",
+      "Structural Analysis & Design",
+      "Fluid Mechanics & Hydraulics",
+      "Geotechnical Engineering",
+      "Surveying & Geomatics",
+      "Transportation Engineering",
+      "Water Resources Engineering",
+      "Construction Materials & Technology",
+      "Environmental Engineering",
+      "Engineering Drawing & CAD",
+      "Project Management",
+      "Final Year Design Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8d7cf2781475d767379"
+    },
+    "name": "Computer Science and Information Technology",
+    "raw_name": "COMPUTER SCIENCE AND INFORMATION TECHNOLOGY",
+    "slug": "computer-science-and-information-technology",
+    "school_id": "69d6d8c8cf2781475d76736c",
+    "school_name": "School of Engineering & Technology",
+    "source_url": "https://central.edu.gh/expand/1810",
+    "source_id": "1810",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Computer Science and Information Technology programme equips students with theoretical knowledge and practical skills in software development, database management, computer networks, cybersecurity, and emerging technologies like AI and cloud computing. Students complete real-world projects and industry internships.",
+    "career_paths": [
+      "Software Developer / Engineer",
+      "Web Developer (Full-Stack)",
+      "Database Administrator",
+      "Network Engineer",
+      "Cybersecurity Analyst",
+      "Data Scientist / Analyst",
+      "IT Project Manager",
+      "Mobile App Developer",
+      "Cloud Solutions Architect",
+      "Systems Administrator"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:15.134Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-22T20:47:12.322Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics, Elective Mathematics",
+      "Aggregate score of 24 or better (WASSCE)",
+      "Physics or Chemistry is an advantage"
+    ],
+    "subjects": [
+      "Introduction to Programming (Python/Java)",
+      "Data Structures & Algorithms",
+      "Object-Oriented Programming",
+      "Database Management Systems",
+      "Computer Networks & Communication",
+      "Web Development (Frontend & Backend)",
+      "Operating Systems",
+      "Software Engineering",
+      "Cybersecurity Fundamentals",
+      "Artificial Intelligence & Machine Learning",
+      "Mobile Application Development",
+      "Cloud Computing",
+      "Computer Architecture",
+      "Discrete Mathematics",
+      "IT Project Management",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8dbcf2781475d76737a"
+    },
+    "name": "Communication and Media Studies",
+    "raw_name": "Communication and Media Studies",
+    "slug": "communication-and-media-studies",
+    "school_id": "69d6d8c8cf2781475d76736d",
+    "school_name": "Faculty of Arts & Social Sciences",
+    "source_url": "https://central.edu.gh/expand/1361",
+    "source_id": "1361",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BA Communication and Media Studies programme explores mass media, journalism, public relations, advertising, digital media production, and communication theory. Students develop skills in writing, broadcasting, photography, and multimedia content creation through practical workshops and industry placements.",
+    "career_paths": [
+      "Journalist / Reporter",
+      "Public Relations Officer",
+      "Broadcast Presenter",
+      "Social Media Manager",
+      "Copy Writer / Content Creator",
+      "Advertising Executive",
+      "Communications Consultant",
+      "Media Production Specialist"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:19.846Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.408Z"
+    },
+    "degree_type": "BA",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English and three relevant subjects",
+      "Aggregate score of 24 or better (WASSCE)"
+    ],
+    "subjects": [
+      "Introduction to Mass Communication",
+      "Media Writing & Reporting",
+      "Broadcast Journalism (Radio & TV)",
+      "Public Relations & Advertising",
+      "Digital Media Production",
+      "Communication Theory",
+      "Photography & Videography",
+      "Social Media Management",
+      "Media Law & Ethics",
+      "Graphic Design for Media",
+      "Development Communication",
+      "Research Methods in Communication",
+      "Internship / Field Attachment",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8dbcf2781475d76737b"
+    },
+    "name": "Economics and Development Studies",
+    "raw_name": "Economics and Development Studies",
+    "slug": "economics-and-development-studies",
+    "school_id": "69d6d8c8cf2781475d76736d",
+    "school_name": "Faculty of Arts & Social Sciences",
+    "source_url": "https://central.edu.gh/expand/1359",
+    "source_id": "1359",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BA Economics and Development Studies programme combines economic theory and policy analysis with development issues facing Ghana and Africa. Students study microeconomics, macroeconomics, development economics, econometrics, and public policy, gaining analytical skills applicable to government, NGOs, and the private sector.",
+    "career_paths": [
+      "Economist (Government / Think Tank)",
+      "Policy Analyst",
+      "Development Programme Officer (NGO/UN)",
+      "Financial Analyst",
+      "Research Analyst",
+      "Bank Officer",
+      "Economic Consultant",
+      "Statistician"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:19.846Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.410Z"
+    },
+    "degree_type": "BA",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics, and Economics (if available)",
+      "Aggregate score of 24 or better (WASSCE)"
+    ],
+    "subjects": [
+      "Principles of Economics (Micro & Macro)",
+      "Development Economics",
+      "Econometrics & Statistics",
+      "International Trade & Finance",
+      "Public Finance & Fiscal Policy",
+      "Monetary Economics & Banking",
+      "Labour Economics",
+      "Agricultural Economics",
+      "Environmental Economics",
+      "Health Economics",
+      "Research Methods",
+      "Ghana's Economic History & Policy",
+      "Final Year Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8dbcf2781475d76737c"
+    },
+    "name": "Social Sciences",
+    "raw_name": "Social Sciences",
+    "slug": "social-sciences",
+    "school_id": "69d6d8c8cf2781475d76736d",
+    "school_name": "Faculty of Arts & Social Sciences",
+    "source_url": "https://central.edu.gh/expand/1357",
+    "source_id": "1357",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BA Social Sciences programme provides an interdisciplinary understanding of human society, combining sociology, political science, psychology, and social work. Students learn to analyse social issues, design community interventions, and contribute to policy formulation for sustainable national development.",
+    "career_paths": [
+      "Social Worker",
+      "Policy Analyst",
+      "NGO Programme Officer",
+      "Human Resource Manager",
+      "Community Development Officer",
+      "Political / Campaign Analyst",
+      "Research Officer",
+      "Public Relations Officer"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:19.846Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.411Z"
+    },
+    "degree_type": "BA",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English and three relevant social science subjects",
+      "Aggregate score of 24 or better (WASSCE)"
+    ],
+    "subjects": [
+      "Introduction to Sociology",
+      "Introduction to Political Science",
+      "Social Psychology",
+      "Social Work & Welfare",
+      "Research Methods in Social Science",
+      "Gender & Development",
+      "African Political Systems",
+      "Community Development",
+      "Conflict Resolution & Peace Studies",
+      "Public Administration",
+      "Statistics for Social Sciences",
+      "Field Attachment / Practicum",
+      "Final Year Dissertation"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d76737d"
+    },
+    "name": "Bachelor of Science in Fashion Design",
+    "raw_name": "BACHELOR OF SCIENCE IN FASHION DESIGN",
+    "slug": "bachelor-of-science-in-fashion-design",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/2295",
+    "source_id": "2295",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Fashion Design programme trains students in the art and business of fashion. Students learn pattern making, textile technology, fashion illustration, garment construction, fashion marketing, and sustainable design. The programme prepares graduates for careers in Ghana's growing fashion industry.",
+    "career_paths": [
+      "Fashion Designer",
+      "Textile Designer",
+      "Fashion Buyer / Merchandiser",
+      "Costume Designer",
+      "Fashion Entrepreneur",
+      "Fashion Journalist / Stylist"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.412Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, and a visual arts subject",
+      "Portfolio of creative work may be required"
+    ],
+    "subjects": [
+      "Fashion Illustration & Drawing",
+      "Pattern Making & Draping",
+      "Textile Science & Technology",
+      "Garment Construction",
+      "Fashion History & Theory",
+      "Fashion Marketing & Merchandising",
+      "Computer-Aided Design (CAD) for Fashion",
+      "Sustainable Fashion Design",
+      "Fashion Photography",
+      "Entrepreneurship in Fashion",
+      "Final Collection Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d76737e"
+    },
+    "name": "Bachelor of Science in Interior Design",
+    "raw_name": "BACHELOR OF SCIENCE IN INTERIOR DESIGN",
+    "slug": "bachelor-of-science-in-interior-design",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/667",
+    "source_id": "667",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Interior Design programme develops students' ability to design functional, safe, and aesthetically pleasing interior spaces. Students study spatial planning, materials, lighting, furniture design, and sustainable building practices.",
+    "career_paths": [
+      "Interior Designer",
+      "Space Planner",
+      "Furniture Designer",
+      "Exhibition Designer",
+      "Real Estate Staging Specialist",
+      "Design Consultant"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.413Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics",
+      "Visual Arts background preferred",
+      "Portfolio review may be required"
+    ],
+    "subjects": [
+      "Design Studio (Levels I-IV)",
+      "Interior Space Planning",
+      "Materials & Finishes",
+      "Lighting Design",
+      "Furniture Design",
+      "AutoCAD & 3D Modelling",
+      "Building Services & Codes",
+      "History of Interior Design",
+      "Sustainable Design Practices",
+      "Professional Practice",
+      "Final Year Design Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d76737f"
+    },
+    "name": "Bachelor of Scienc in Landscape Design",
+    "raw_name": "BACHELOR OF SCIENC IN LANDSCAPE DESIGN",
+    "slug": "bachelor-of-scienc-in-landscape-design",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/658",
+    "source_id": "658",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Landscape Design programme trains students to design outdoor environments \u2014 parks, gardens, campuses, and urban spaces. The curriculum covers horticulture, site planning, environmental sustainability, and landscape construction.",
+    "career_paths": [
+      "Landscape Designer",
+      "Urban Planner",
+      "Parks & Recreation Manager",
+      "Environmental Consultant",
+      "Garden Designer",
+      "Landscape Contractor"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.415Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics, and a science subject",
+      "Interest in environmental design and ecology"
+    ],
+    "subjects": [
+      "Landscape Design Studio",
+      "Horticulture & Plant Science",
+      "Site Planning & Analysis",
+      "Landscape Construction",
+      "Urban Design & Planning",
+      "Environmental Psychology",
+      "GIS & Remote Sensing",
+      "Irrigation & Drainage Systems",
+      "Ecological Design",
+      "Professional Practice",
+      "Final Year Landscape Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d767380"
+    },
+    "name": "Bachelor of Science in Graphic Design",
+    "raw_name": "BACHELOR OF SCIENCE IN GRAPHIC DESIGN",
+    "slug": "bachelor-of-science-in-graphic-design",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/560",
+    "source_id": "560",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Graphic Design programme equips students with visual communication skills. Students learn typography, branding, digital illustration, UI/UX design, motion graphics, and print production using industry-standard tools.",
+    "career_paths": [
+      "Graphic Designer",
+      "UI/UX Designer",
+      "Brand Identity Designer",
+      "Motion Graphics Artist",
+      "Art Director",
+      "Creative Director",
+      "Freelance Designer"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.416Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Mathematics",
+      "Portfolio of creative/visual work recommended"
+    ],
+    "subjects": [
+      "Design Fundamentals",
+      "Typography & Layout Design",
+      "Digital Illustration",
+      "Brand Identity Design",
+      "Web & UI/UX Design",
+      "Motion Graphics & Animation",
+      "Packaging Design",
+      "Photography for Design",
+      "Print Production",
+      "Adobe Creative Suite (Photoshop, Illustrator, InDesign)",
+      "Portfolio Development",
+      "Final Year Design Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d767381"
+    },
+    "name": "Bsc Real Estate",
+    "raw_name": "BSC REAL ESTATE",
+    "slug": "bsc-real-estate",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/558",
+    "source_id": "558",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Real Estate programme provides students with knowledge in property valuation, real estate finance, property law, estate management, and urban planning. Graduates are well-equipped to work in Ghana's rapidly growing property market.",
+    "career_paths": [
+      "Real Estate Valuer / Appraiser",
+      "Property Manager",
+      "Real Estate Developer",
+      "Estate Agent / Broker",
+      "Facility Manager",
+      "Land Administrator",
+      "Real Estate Investment Analyst"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.418Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics",
+      "Economics or Business Management is an advantage"
+    ],
+    "subjects": [
+      "Principles of Real Estate",
+      "Property Valuation & Appraisal",
+      "Real Estate Finance & Investment",
+      "Property Law & Land Administration",
+      "Estate Management & Agency",
+      "Urban & Regional Planning",
+      "Building Construction Technology",
+      "Facility Management",
+      "Real Estate Marketing",
+      "GIS for Real Estate",
+      "Professional Practice & Ethics",
+      "Final Year Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d767382"
+    },
+    "name": "Bsc Planning",
+    "raw_name": "BSC PLANNING",
+    "slug": "bsc-planning",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/556",
+    "source_id": "556",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Planning programme focuses on urban and regional planning, land-use management, and sustainable development. Students learn to design and implement plans for cities, towns, and regions to ensure orderly growth and development.",
+    "career_paths": [
+      "Town / Urban Planner",
+      "Regional Development Planner",
+      "Environmental Planner",
+      "Transport Planner",
+      "Housing Policy Analyst",
+      "GIS Analyst",
+      "Local Government Planning Officer"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.420Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics",
+      "Geography or Technical Drawing is an advantage"
+    ],
+    "subjects": [
+      "Principles of Urban Planning",
+      "Regional Planning & Development",
+      "Land-Use Planning & Zoning",
+      "Planning Law & Policy",
+      "Transportation Planning",
+      "Environmental Planning",
+      "Housing & Community Development",
+      "GIS & Spatial Analysis",
+      "Planning Studio (Design Projects)",
+      "Research Methods in Planning",
+      "Professional Planning Practice",
+      "Final Year Planning Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8decf2781475d767383"
+    },
+    "name": "Bachelor of Architecture",
+    "raw_name": "BACHELOR OF ARCHITECTURE",
+    "slug": "bachelor-of-architecture",
+    "school_id": "69d6d8c8cf2781475d76736e",
+    "school_name": "School of Architecture & Design",
+    "source_url": "https://central.edu.gh/expand/554",
+    "source_id": "554",
+    "code": null,
+    "duration_years": 5,
+    "description": "The Bachelor of Architecture is a 5-year professional programme that prepares students for architectural practice. The curriculum covers architectural design studios, structural engineering, building services, history of architecture, environmental design, and professional practice. Graduates can pursue registration with the Ghana Institute of Architects.",
+    "career_paths": [
+      "Architect (GIA Registered)",
+      "Urban Designer",
+      "Project Manager (Construction)",
+      "Building Inspector",
+      "Interior Architect",
+      "Sustainability Consultant",
+      "Architecture Educator"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:22.714Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.421Z"
+    },
+    "degree_type": "BArch",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics, Physics, and Technical Drawing",
+      "Aggregate score of 24 or better (WASSCE)",
+      "Portfolio review and aptitude test may apply"
+    ],
+    "subjects": [
+      "Architectural Design Studio (Levels I-V)",
+      "Structural Systems & Engineering",
+      "Building Construction Technology",
+      "History & Theory of Architecture",
+      "Environmental Design & Sustainability",
+      "Building Services (Mechanical, Electrical, Plumbing)",
+      "Architectural Drawing & CAD/BIM",
+      "Urban Design",
+      "Building Codes & Regulations",
+      "Professional Practice & Ethics",
+      "Thesis Design Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e3cf2781475d767384"
+    },
+    "name": "Marketing",
+    "raw_name": "MARKETING",
+    "slug": "marketing",
+    "school_id": "69d6d8c8cf2781475d76736f",
+    "school_name": "Central Business School",
+    "source_url": "https://central.edu.gh/expand/530",
+    "source_id": "530",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Marketing programme provides a solid foundation in marketing strategy, consumer behaviour, digital marketing, sales management, and brand management. Students gain practical skills through case studies, industry projects, and internships in top Ghanaian firms.",
+    "career_paths": [
+      "Marketing Manager",
+      "Digital Marketing Specialist",
+      "Brand Manager",
+      "Sales Executive / Manager",
+      "Market Research Analyst",
+      "Advertising Executive",
+      "Social Media Strategist",
+      "Product Manager"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:27.936Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.423Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics, and Business Management/Economics",
+      "Aggregate score of 24 or better (WASSCE)"
+    ],
+    "subjects": [
+      "Principles of Marketing",
+      "Consumer Behaviour",
+      "Digital Marketing & Social Media",
+      "Sales Management",
+      "Brand Management & Strategy",
+      "Marketing Research",
+      "Advertising & Promotion",
+      "International Marketing",
+      "Services Marketing",
+      "Retail Management",
+      "Business Communication",
+      "Strategic Marketing Management",
+      "Internship / Industrial Attachment",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e3cf2781475d767385"
+    },
+    "name": "Management and Public Administration",
+    "raw_name": "MANAGEMENT AND PUBLIC ADMINISTRATION",
+    "slug": "management-and-public-administration",
+    "school_id": "69d6d8c8cf2781475d76736f",
+    "school_name": "Central Business School",
+    "source_url": "https://central.edu.gh/expand/528",
+    "source_id": "528",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Management and Public Administration programme combines principles of business management with public sector administration. Students study organizational behaviour, strategic management, public policy, governance, and development administration.",
+    "career_paths": [
+      "Public Sector Administrator",
+      "Management Consultant",
+      "Project Manager",
+      "Human Resource Manager",
+      "Local Government Officer",
+      "NGO Programme Manager",
+      "Policy Analyst",
+      "Operations Manager"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:27.936Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.424Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics",
+      "Business Management or Economics is an advantage"
+    ],
+    "subjects": [
+      "Principles of Management",
+      "Public Administration",
+      "Organizational Behaviour",
+      "Strategic Management",
+      "Public Policy Analysis",
+      "Governance & Ethics",
+      "Financial Management",
+      "Human Resource Management",
+      "Project Planning & Management",
+      "Local Government Administration",
+      "Development Administration",
+      "Leadership & Change Management",
+      "Research Methods",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e3cf2781475d767386"
+    },
+    "name": "Human Resource Management",
+    "raw_name": "HUMAN RESOURCE MANAGEMENT",
+    "slug": "human-resource-management",
+    "school_id": "69d6d8c8cf2781475d76736f",
+    "school_name": "Central Business School",
+    "source_url": "https://central.edu.gh/expand/526",
+    "source_id": "526",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Human Resource Management programme focuses on talent acquisition, employee development, compensation management, labour relations, and organizational development. Students are prepared for HR roles across all industries.",
+    "career_paths": [
+      "Human Resource Manager",
+      "Recruitment Specialist",
+      "Training & Development Manager",
+      "Compensation & Benefits Analyst",
+      "HR Business Partner",
+      "Employee Relations Officer",
+      "Organizational Development Consultant"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:27.936Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.425Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics",
+      "Business Management is an advantage"
+    ],
+    "subjects": [
+      "Human Resource Management Fundamentals",
+      "Recruitment & Talent Acquisition",
+      "Training & Development",
+      "Compensation & Benefits Management",
+      "Labour Law & Industrial Relations",
+      "Organizational Behaviour",
+      "Performance Management",
+      "Employee Relations",
+      "Strategic HRM",
+      "HR Information Systems (HRIS)",
+      "Change Management",
+      "Business Ethics",
+      "Industrial Attachment",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e3cf2781475d767387"
+    },
+    "name": "Accounting",
+    "raw_name": "ACCOUNTING",
+    "slug": "accounting",
+    "school_id": "69d6d8c8cf2781475d76736f",
+    "school_name": "Central Business School",
+    "source_url": "https://central.edu.gh/expand/522",
+    "source_id": "522",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Accounting programme provides comprehensive training in financial accounting, management accounting, auditing, taxation, and financial management. The curriculum is aligned with the requirements of ICAG, ACCA, and CIMA professional qualifications.",
+    "career_paths": [
+      "Chartered Accountant (ICAG/ACCA)",
+      "Auditor (Internal / External)",
+      "Tax Consultant",
+      "Financial Analyst",
+      "Management Accountant",
+      "Bank Officer / Manager",
+      "Forensic Accountant",
+      "Chief Financial Officer (CFO)"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:27.936Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.426Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics, and Business Management/Accounting",
+      "Aggregate score of 24 or better (WASSCE)"
+    ],
+    "subjects": [
+      "Financial Accounting (I, II, III)",
+      "Cost & Management Accounting",
+      "Auditing & Assurance",
+      "Taxation (Ghana Tax Law)",
+      "Corporate Finance",
+      "Accounting Information Systems",
+      "Business Law",
+      "Public Sector Accounting",
+      "Financial Management",
+      "International Financial Reporting Standards (IFRS)",
+      "Forensic Accounting",
+      "Business Statistics",
+      "Industrial Attachment",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e3cf2781475d767388"
+    },
+    "name": "Banking and Finance",
+    "raw_name": "BANKING AND FINANCE",
+    "slug": "banking-and-finance",
+    "school_id": "69d6d8c8cf2781475d76736f",
+    "school_name": "Central Business School",
+    "source_url": "https://central.edu.gh/expand/520",
+    "source_id": "520",
+    "code": null,
+    "duration_years": 4,
+    "description": "The BSc Banking and Finance programme prepares students for careers in the banking and financial services industry. Students learn about financial markets, investment analysis, banking operations, risk management, and fintech innovations.",
+    "career_paths": [
+      "Bank Officer / Manager",
+      "Financial Analyst",
+      "Investment Banker",
+      "Risk Analyst",
+      "Insurance Underwriter",
+      "FinTech Product Manager",
+      "Treasury Analyst",
+      "Microfinance Officer"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:27.936Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.428Z"
+    },
+    "degree_type": "BSc",
+    "entry_requirements": [
+      "WASSCE/SSSCE with credits in English, Core Mathematics",
+      "Economics or Business Management is an advantage"
+    ],
+    "subjects": [
+      "Principles of Finance",
+      "Banking Operations & Practice",
+      "Financial Markets & Institutions",
+      "Investment Analysis & Portfolio Management",
+      "Risk Management",
+      "International Finance",
+      "Money & Capital Markets",
+      "Corporate Finance",
+      "Financial Technology (FinTech)",
+      "Central Banking & Monetary Policy",
+      "Insurance & Pensions",
+      "Microfinance",
+      "Industrial Attachment",
+      "Final Year Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767389"
+    },
+    "name": "Doctor of Business Administration (dba)",
+    "raw_name": "DOCTOR OF BUSINESS ADMINISTRATION (DBA)",
+    "slug": "doctor-of-business-administration-dba",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/6453",
+    "source_id": "6453",
+    "code": null,
+    "duration_years": 3,
+    "description": "The Doctor of Business Administration (DBA) is a professional doctorate for senior executives and academics seeking to apply advanced research methods to real-world business challenges.",
+    "career_paths": [
+      "University Professor",
+      "Chief Executive Officer",
+      "Management Consultant",
+      "Corporate Strategist",
+      "Research Director"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.429Z"
+    },
+    "degree_type": "DBA",
+    "entry_requirements": [
+      "MBA or equivalent master's degree",
+      "Minimum 5 years senior management experience",
+      "Research proposal"
+    ],
+    "subjects": [
+      "Advanced Research Methods",
+      "Quantitative & Qualitative Analysis",
+      "Business Strategy & Innovation",
+      "Organizational Theory",
+      "Knowledge Management",
+      "Doctoral Thesis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d76738a"
+    },
+    "name": "PhD Finance",
+    "raw_name": "PhD FINANCE",
+    "slug": "phd-finance",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/6449",
+    "source_id": "6449",
+    "code": null,
+    "duration_years": 3,
+    "description": "The PhD Finance programme produces scholars and researchers in financial economics, corporate finance, and capital markets through advanced coursework and original research.",
+    "career_paths": [
+      "University Lecturer/Professor",
+      "Research Analyst",
+      "Central Bank Economist",
+      "Financial Consultant"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.431Z"
+    },
+    "degree_type": "PhD",
+    "entry_requirements": [
+      "MPhil/MSc in Finance or related field",
+      "Strong quantitative background",
+      "Research proposal"
+    ],
+    "subjects": [
+      "Advanced Financial Theory",
+      "Econometrics",
+      "Asset Pricing",
+      "Corporate Governance",
+      "Behavioural Finance",
+      "Doctoral Thesis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d76738b"
+    },
+    "name": "Msc Accounting",
+    "raw_name": "MSC ACCOUNTING",
+    "slug": "msc-accounting",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/2765",
+    "source_id": "2765",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MSc Accounting programme deepens expertise in financial reporting, auditing, and management accounting for accounting professionals and aspiring academics.",
+    "career_paths": [
+      "Senior Auditor",
+      "Accounting Lecturer",
+      "Financial Controller",
+      "Tax Specialist",
+      "CFO"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.432Z"
+    },
+    "degree_type": "MSc",
+    "entry_requirements": [
+      "Bachelor's degree in Accounting or related field",
+      "Minimum Second Class Honours"
+    ],
+    "subjects": [
+      "Advanced Financial Accounting",
+      "International Auditing Standards",
+      "Strategic Management Accounting",
+      "Research Methods",
+      "Dissertation"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d76738c"
+    },
+    "name": "MPHlL Accounting",
+    "raw_name": "MPHlL ACCOUNTING",
+    "slug": "mphll-accounting",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/2760",
+    "source_id": "2760",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MPhil Accounting programme emphasises research in accounting theory, practice, and policy, preparing graduates for doctoral studies or senior professional roles.",
+    "career_paths": [
+      "Accounting Researcher",
+      "University Lecturer",
+      "Policy Analyst (Accounting Standards)",
+      "PhD Candidate"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.434Z"
+    },
+    "degree_type": "MPhil",
+    "entry_requirements": [
+      "Bachelor's degree in Accounting (Second Class or better)",
+      "Research proposal"
+    ],
+    "subjects": [
+      "Accounting Theory & Practice",
+      "Advanced Auditing",
+      "Research Methodology",
+      "Seminar in Accounting",
+      "Thesis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d76738d"
+    },
+    "name": "Ma Religious Studies",
+    "raw_name": "MA RELIGIOUS STUDIES",
+    "slug": "ma-religious-studies",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/718",
+    "source_id": "718",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MA Religious Studies programme explores theology, world religions, ethics, and the role of religion in contemporary African society.",
+    "career_paths": [
+      "Clergy / Pastor",
+      "Religious Educator",
+      "Chaplain",
+      "NGO Worker (Faith-based)",
+      "Academic Researcher"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.436Z"
+    },
+    "degree_type": "MA",
+    "entry_requirements": [
+      "Bachelor's degree in Theology, Religious Studies, or related field"
+    ],
+    "subjects": [
+      "Advanced Theology",
+      "World Religions",
+      "Christian Ethics",
+      "African Traditional Religion",
+      "Research Methods",
+      "Dissertation"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d76738e"
+    },
+    "name": "Mphil Theology",
+    "raw_name": "MPHIL THEOLOGY",
+    "slug": "mphil-theology",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/716",
+    "source_id": "716",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MPhil Theology programme provides advanced research training in biblical studies, systematic theology, and practical theology for aspiring scholars and church leaders.",
+    "career_paths": [
+      "Theology Professor",
+      "Senior Pastor",
+      "Seminary Director",
+      "PhD Candidate",
+      "Religious Author"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.438Z"
+    },
+    "degree_type": "MPhil",
+    "entry_requirements": [
+      "MA in Theology or related field",
+      "Research proposal"
+    ],
+    "subjects": [
+      "Biblical Hermeneutics",
+      "Systematic Theology",
+      "Practical Theology",
+      "Church History",
+      "Research Methodology",
+      "Thesis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d76738f"
+    },
+    "name": "Mba Finance",
+    "raw_name": "MBA FINANCE",
+    "slug": "mba-finance",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/714",
+    "source_id": "714",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MBA Finance programme equips mid-career professionals with advanced financial management, investment, and corporate finance skills for leadership roles in the financial sector.",
+    "career_paths": [
+      "Finance Director",
+      "Investment Manager",
+      "CFO",
+      "Financial Consultant",
+      "Bank Executive"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.441Z"
+    },
+    "degree_type": "MBA",
+    "entry_requirements": [
+      "Bachelor's degree (Second Class or better)",
+      "Minimum 2 years work experience",
+      "GMAT/interview may apply"
+    ],
+    "subjects": [
+      "Financial Management",
+      "Investment Analysis",
+      "Corporate Finance",
+      "Financial Modelling",
+      "Strategic Management",
+      "Business Research",
+      "Thesis/Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767390"
+    },
+    "name": "Mba General Management",
+    "raw_name": "MBA GENERAL MANAGEMENT",
+    "slug": "mba-general-management",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/712",
+    "source_id": "712",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MBA General Management programme develops versatile business leaders with skills in strategy, operations, marketing, and organizational management.",
+    "career_paths": [
+      "General Manager",
+      "Operations Director",
+      "Management Consultant",
+      "CEO",
+      "Entrepreneur"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.444Z"
+    },
+    "degree_type": "MBA",
+    "entry_requirements": [
+      "Bachelor's degree",
+      "Minimum 2 years work experience"
+    ],
+    "subjects": [
+      "Strategic Management",
+      "Operations Management",
+      "Marketing Management",
+      "Financial Management",
+      "Organizational Behaviour",
+      "Business Ethics",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767391"
+    },
+    "name": "Mba Human Resource Management",
+    "raw_name": "MBA HUMAN RESOURCE MANAGEMENT",
+    "slug": "mba-human-resource-management",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/710",
+    "source_id": "710",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MBA Human Resource Management programme prepares HR professionals for strategic leadership roles, covering talent strategy, organizational design, and employment law.",
+    "career_paths": [
+      "HR Director",
+      "Chief People Officer",
+      "Organizational Development Consultant",
+      "Talent Acquisition Director"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.447Z"
+    },
+    "degree_type": "MBA",
+    "entry_requirements": [
+      "Bachelor's degree",
+      "Minimum 2 years work experience"
+    ],
+    "subjects": [
+      "Strategic HRM",
+      "Talent Management",
+      "Organizational Design",
+      "Employment Law",
+      "Leadership Development",
+      "Change Management",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767392"
+    },
+    "name": "Mba Marketing",
+    "raw_name": "MBA MARKETING",
+    "slug": "mba-marketing",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/708",
+    "source_id": "708",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MBA Marketing programme develops senior marketing professionals with expertise in brand strategy, digital marketing, consumer insights, and international marketing.",
+    "career_paths": [
+      "Chief Marketing Officer",
+      "Brand Director",
+      "Marketing Strategy Consultant",
+      "Digital Marketing Director"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.450Z"
+    },
+    "degree_type": "MBA",
+    "entry_requirements": [
+      "Bachelor's degree",
+      "Minimum 2 years work experience"
+    ],
+    "subjects": [
+      "Strategic Marketing",
+      "Consumer Behaviour (Advanced)",
+      "Digital Marketing Strategy",
+      "Brand Strategy & Management",
+      "Marketing Analytics",
+      "International Marketing",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767393"
+    },
+    "name": "Mphil Economics",
+    "raw_name": "MPHIL ECONOMICS",
+    "slug": "mphil-economics",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/704",
+    "source_id": "704",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MPhil Economics programme offers advanced training in economic analysis, econometrics, and policy research, preparing students for PhD programmes or senior analyst roles.",
+    "career_paths": [
+      "Economist (Government/International)",
+      "PhD Candidate",
+      "Economic Policy Researcher",
+      "Senior Financial Analyst"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.453Z"
+    },
+    "degree_type": "MPhil",
+    "entry_requirements": [
+      "Bachelor's degree in Economics (Second Class or better)",
+      "Strong quantitative skills"
+    ],
+    "subjects": [
+      "Advanced Microeconomics",
+      "Advanced Macroeconomics",
+      "Econometrics",
+      "Development Economics",
+      "Research Methodology",
+      "Thesis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767394"
+    },
+    "name": "Mba Agribusiness",
+    "raw_name": "MBA AGRIBUSINESS",
+    "slug": "mba-agribusiness",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/702",
+    "source_id": "702",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MBA Agribusiness programme combines business management with agricultural value chain expertise, preparing leaders for Ghana's agricultural transformation agenda.",
+    "career_paths": [
+      "Agribusiness Manager",
+      "Agricultural Investment Analyst",
+      "Farm Operations Director",
+      "NGO Agricultural Programme Manager"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.457Z"
+    },
+    "degree_type": "MBA",
+    "entry_requirements": [
+      "Bachelor's degree in Agriculture, Business, or related field",
+      "Minimum 2 years work experience"
+    ],
+    "subjects": [
+      "Agribusiness Management",
+      "Agricultural Marketing",
+      "Supply Chain Management",
+      "Farm Financial Management",
+      "Agricultural Policy",
+      "Agri-Entrepreneurship",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767395"
+    },
+    "name": "Master of Public Health",
+    "raw_name": "MASTER OF PUBLIC HEALTH",
+    "slug": "master-of-public-health",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/700",
+    "source_id": "700",
+    "code": null,
+    "duration_years": 2,
+    "description": "The Master of Public Health programme trains public health leaders in epidemiology, health policy, biostatistics, and health systems management for improved population health outcomes.",
+    "career_paths": [
+      "Public Health Director",
+      "Epidemiologist",
+      "Health Policy Advisor",
+      "WHO/NGO Health Officer",
+      "Hospital Administrator"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.463Z"
+    },
+    "degree_type": "MPH",
+    "entry_requirements": [
+      "Bachelor's degree in health-related field",
+      "Minimum 1 year work experience in health sector"
+    ],
+    "subjects": [
+      "Advanced Epidemiology",
+      "Health Policy & Management",
+      "Biostatistics",
+      "Environmental Health",
+      "Health Promotion",
+      "Global Health",
+      "Research Methods",
+      "Dissertation"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767396"
+    },
+    "name": "Master of Arts in Development Policy",
+    "raw_name": "MASTER OF ARTS IN DEVELOPMENT POLICY",
+    "slug": "master-of-arts-in-development-policy",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/698",
+    "source_id": "698",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MA Development Policy programme examines how policies can drive sustainable development in Africa, covering governance, economics, social policy, and programme evaluation.",
+    "career_paths": [
+      "Development Policy Analyst",
+      "Programme Manager (UN/NGO)",
+      "Government Policy Advisor",
+      "International Development Consultant"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.467Z"
+    },
+    "degree_type": "MA",
+    "entry_requirements": [
+      "Bachelor's degree in Social Sciences, Economics, or related field"
+    ],
+    "subjects": [
+      "Development Theory & Practice",
+      "Policy Analysis & Evaluation",
+      "Governance & Institutional Development",
+      "Development Economics",
+      "Project Planning & Management",
+      "Dissertation"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767397"
+    },
+    "name": "Master of Philosophy in Development Policy",
+    "raw_name": "MASTER OF PHILOSOPHY IN DEVELOPMENT POLICY",
+    "slug": "master-of-philosophy-in-development-policy",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/696",
+    "source_id": "696",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MPhil Development Policy programme provides advanced research training in development studies, preparing graduates for doctoral studies or senior policy research positions.",
+    "career_paths": [
+      "PhD Candidate",
+      "Senior Policy Researcher",
+      "International Development Advisor"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.470Z"
+    },
+    "degree_type": "MPhil",
+    "entry_requirements": [
+      "MA in Development Studies, Economics, or related field",
+      "Research proposal"
+    ],
+    "subjects": [
+      "Advanced Development Theory",
+      "Quantitative Research Methods",
+      "Policy Research Seminar",
+      "Thesis"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e7cf2781475d767398"
+    },
+    "name": "Mba Project Management Option",
+    "raw_name": "MBA PROJECT MANAGEMENT OPTION",
+    "slug": "mba-project-management-option",
+    "school_id": "69d6d8c8cf2781475d767370",
+    "school_name": "School of Graduate Studies & Research",
+    "source_url": "https://central.edu.gh/expand/689",
+    "source_id": "689",
+    "code": null,
+    "duration_years": 2,
+    "description": "The MBA with Project Management Option develops leaders who can manage complex projects across industries, combining core MBA skills with project management methodologies like Agile and Prince2.",
+    "career_paths": [
+      "Senior Project Manager",
+      "Programme Director",
+      "PMO Manager",
+      "Operations Manager",
+      "Consultant"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:31.518Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.474Z"
+    },
+    "degree_type": "MBA",
+    "entry_requirements": [
+      "Bachelor's degree",
+      "Minimum 2 years work experience"
+    ],
+    "subjects": [
+      "Project Management Principles",
+      "Project Planning & Scheduling",
+      "Risk & Quality Management",
+      "Agile Methodologies",
+      "Financial Management",
+      "Strategic Management",
+      "Research Project"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "69d6d8e9cf2781475d767399"
+    },
+    "name": "Award for Training in Higher Education (athe)",
+    "raw_name": "AWARD FOR TRAINING IN HIGHER EDUCATION (ATHE)",
+    "slug": "award-for-training-in-higher-education-athe",
+    "school_id": "69d6d8c8cf2781475d767371",
+    "school_name": "Centre for Distance & Professional Education",
+    "source_url": "https://central.edu.gh/expand/572",
+    "source_id": "572",
+    "code": null,
+    "duration_years": 1,
+    "description": "The Award for Training in Higher Education (ATHE) is a professional certificate programme designed for educators and trainers working in higher education. It enhances teaching, assessment, and curriculum design skills in line with international standards.",
+    "career_paths": [
+      "University Lecturer",
+      "Curriculum Designer",
+      "Academic Quality Assurance Officer",
+      "Education Consultant",
+      "Training & Development Specialist"
+    ],
+    "is_reviewed": true,
+    "created_at": {
+      "$date": "2026-04-08T22:38:33.818Z"
+    },
+    "updated_at": {
+      "$date": "2026-04-15T12:50:05.478Z"
+    },
+    "degree_type": "Certificate",
+    "entry_requirements": [
+      "Bachelor's degree or equivalent",
+      "Currently teaching or training in a higher education institution"
+    ],
+    "subjects": [
+      "Teaching & Learning in Higher Education",
+      "Assessment Strategies",
+      "Curriculum Design & Development",
+      "Educational Technology",
+      "Reflective Practice",
+      "Portfolio Development"
+    ]
+  }
+]
