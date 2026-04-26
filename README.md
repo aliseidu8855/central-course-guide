@@ -81,10 +81,7 @@ The backend includes an embedded admin panel for reviewing and editing the data:
 
 ---
 
-## Advanced: Scraper Scripts
+## Development
 
-If you want to re-scrape the latest data from the university website:
-1. `python seed_database.py` (Base schools and programmes)
-2. `python update_school_descriptions.py` (Official descriptions)
-3. `python enrich_programmes.py` (Detailed course info)
-4. `python export_database.py` (Save current DB state to `database_dump/`)
+- **API Documentation**: Once the backend is running, visit `http://localhost:8000/docs` for the interactive Swagger UI.
+- **Environment**: Make sure to keep the `.env` file secure and never commit it to version control.
