@@ -1,0 +1,66 @@
+/* ===========================================================
+   Central Course Guide — Global Stylesheet (Tailwind CSS v4)
+   =========================================================== */
+
+@import "tailwindcss";
+
+/* -----------------------------------------------------------
+   Custom Theme Tokens
+   ----------------------------------------------------------- */
+@theme {
+  /* ---- Brand: Central Maroon ---- */
+  --color-maroon: #8B0000;
+  --color-maroon-light: #A52A2A;
+  --color-maroon-dark: #5C0000;
+
+  /* ---- Neutral backgrounds ---- */
+  --color-background: #F8F5F2;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F0EBE3;
+
+  /* ---- Text ---- */
+  --color-text-primary: #1A1A2E;
+  --color-text-secondary: #4A4A68;
+  --color-text-muted: #8A8AA0;
+
+  /* ---- Accent ---- */
+  --color-accent: #D4A853;
+  --color-accent-light: #E8C97A;
+  --color-accent-dark: #B08930;
+
+  /* ---- Typography ---- */
+  --font-sans: "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+
+  /* ---- Animation ---- */
+  --animate-in: slide-down 0.2s ease-out;
+}
+
+/* -----------------------------------------------------------
+   Base resets & defaults
+   ----------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+/* Mobile menu animation */
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

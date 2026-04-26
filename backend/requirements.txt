@@ -1,0 +1,23 @@
+# ============================================================
+# Central Course Guide — Backend Dependencies
+# ============================================================
+# Install with:  pip install -r requirements.txt
+# ============================================================
+
+# --- Web Framework ---
+fastapi           # High-performance async Python web framework
+uvicorn[standard] # ASGI server to run FastAPI
+
+# --- Database ---
+motor            # Async MongoDB driver (wraps PyMongo)
+pymongo            # Sync MongoDB driver (used by seed script)
+
+# --- Data Validation ---
+pydantic           # Data modelling & validation (used by FastAPI)
+
+# --- Web Scraping ---
+httpx           # Modern async/sync HTTP client
+beautifulsoup4     # HTML parsing for web scraping
+
+# --- CORS / Utilities ---
+python-dotenv       # Load environment variables from .env files
