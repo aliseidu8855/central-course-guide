@@ -4,7 +4,7 @@ A comprehensive guide for university courses, featuring a React frontend and a F
 
 ## Key Features
 
-- **Interest Quiz** (`/quiz`) — students pick up to 5 interests (tech, caring for people, business, art…) and get ranked programme recommendations with "why this matched" explanations. Postgraduate programmes are behind a toggle.
+- **Real-Time Course Matcher** (landing page) — students tap up to 5 interests (tech, caring for people, business, art…) and matches update live: an "analysing" sequence, a typed-out reasoning summary, a Best Match spotlight with study-time bars, and ranked runners-up with "why this matched" chips. Postgraduate programmes are behind a toggle.
 - **Browse All Programmes** (`/programmes`) — search plus filters by school, level (undergraduate/postgraduate), and interest.
 - **Study-Time Composition** — each programme page shows a "What You'll Spend Your Time On" breakdown (coding, maths, theory, practicals, creativity, people skills) as percentage bars.
 - **Schools & Programme detail pages** — descriptions, subjects, entry requirements, and career paths.

@@ -11,6 +11,7 @@ import {
   createBrowserRouter,
   RouterProvider,
   Outlet,
+  Navigate,
 } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -20,7 +21,6 @@ import Schools from "./pages/Schools";
 import SchoolDetail from "./pages/SchoolDetail";
 import ProgrammeDetail from "./pages/ProgrammeDetail";
 import Programmes from "./pages/Programmes";
-import Quiz from "./pages/Quiz";
 
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -49,7 +49,7 @@ const router = createBrowserRouter([
       { path: "schools/:schoolId", element: <SchoolDetail /> },
       { path: "programmes", element: <Programmes /> },
       { path: "programmes/:programmeId", element: <ProgrammeDetail /> },
-      { path: "quiz", element: <Quiz /> },
+      { path: "*", element: <Navigate to="/" replace /> },
     ],
   },
 ]);

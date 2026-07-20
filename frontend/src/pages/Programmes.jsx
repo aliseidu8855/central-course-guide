@@ -111,15 +111,15 @@ export default function Programmes() {
         <div className="flex items-center gap-2.5 text-sm text-text-secondary">
           <SparklesIcon className="h-5 w-5 text-maroon shrink-0" />
           <span>
-            Not sure where to start? Answer a few questions and get personal
-            recommendations.
+            Not sure where to start? Tap your interests and let the matcher
+            rank these for you.
           </span>
         </div>
         <Link
-          to="/quiz"
+          to="/"
           className="inline-flex items-center gap-1.5 px-4 py-2 bg-maroon text-white text-sm font-semibold rounded-lg hover:bg-maroon-dark transition-all shrink-0"
         >
-          Take the Quiz →
+          Get Matched →
         </Link>
       </div>
 

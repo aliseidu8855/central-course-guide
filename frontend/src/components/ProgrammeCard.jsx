@@ -7,15 +7,26 @@
  *   programme  — the programme document.
  *   showSchool — also render the parent school name badge.
  *   extra      — optional node rendered at the bottom (e.g. quiz match info).
+ *   className / style — merged onto the card (e.g. stagger animations).
+ *
+ * The card is an <a>; the explicit `block` keeps its background painting
+ * correctly even when it isn't a direct grid/flex item.
  */
 
 import { Link } from "react-router-dom";
 
-export default function ProgrammeCard({ programme, showSchool = false, extra = null }) {
+export default function ProgrammeCard({
+  programme,
+  showSchool = false,
+  extra = null,
+  className = "",
+  style,
+}) {
   return (
     <Link
       to={`/programmes/${programme._id}`}
-      className="group bg-surface rounded-xl p-4 sm:p-5 border border-surface-alt hover:border-maroon/30 hover:shadow-md transition-all duration-200"
+      style={style}
+      className={`group block bg-surface rounded-xl p-4 sm:p-5 border border-surface-alt hover:border-maroon/30 hover:shadow-md transition-all duration-200 ${className}`}
     >
       <div className="flex items-start justify-between gap-3">
         <div className="flex-1 min-w-0">
