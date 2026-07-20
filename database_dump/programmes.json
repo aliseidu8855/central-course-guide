@@ -45,7 +45,17 @@
       "Pharmacy Law & Ethics (Advanced)",
       "Clinical Toxicology",
       "Pharmacy Practice Experience"
-    ]
+    ],
+    "interest_tags": [
+      "health",
+      "science"
+    ],
+    "composition": {
+      "theory": 30,
+      "practicals": 40,
+      "mathematics": 10,
+      "people": 20
+    }
   },
   {
     "_id": {
@@ -98,7 +108,17 @@
       "Pharmaceutical Analysis",
       "Public Health Pharmacy",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "health",
+      "science"
+    ],
+    "composition": {
+      "theory": 35,
+      "practicals": 35,
+      "mathematics": 15,
+      "people": 15
+    }
   },
   {
     "_id": {
@@ -154,7 +174,16 @@
       "Environmental Law",
       "Moot Court Practice",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "law",
+      "society"
+    ],
+    "composition": {
+      "theory": 55,
+      "people": 25,
+      "practicals": 20
+    }
   },
   {
     "_id": {
@@ -208,7 +237,18 @@
       "Health Information Systems",
       "Research Methods",
       "Field Attachment"
-    ]
+    ],
+    "interest_tags": [
+      "health",
+      "society",
+      "science"
+    ],
+    "composition": {
+      "theory": 35,
+      "practicals": 25,
+      "mathematics": 15,
+      "people": 25
+    }
   },
   {
     "_id": {
@@ -260,7 +300,16 @@
       "Community Medicine",
       "Medical Ethics",
       "Clinical Rotations"
-    ]
+    ],
+    "interest_tags": [
+      "health",
+      "science"
+    ],
+    "composition": {
+      "theory": 30,
+      "practicals": 45,
+      "people": 25
+    }
   },
   {
     "_id": {
@@ -312,7 +361,16 @@
       "Leadership & Management in Nursing",
       "Health Assessment",
       "Clinical Practicum"
-    ]
+    ],
+    "interest_tags": [
+      "health",
+      "science"
+    ],
+    "composition": {
+      "theory": 30,
+      "practicals": 45,
+      "people": 25
+    }
   },
   {
     "_id": {
@@ -367,7 +425,18 @@
       "Engineering Drawing & CAD",
       "Project Management",
       "Final Year Design Project"
-    ]
+    ],
+    "interest_tags": [
+      "building",
+      "numbers"
+    ],
+    "composition": {
+      "mathematics": 35,
+      "practicals": 30,
+      "theory": 20,
+      "coding": 10,
+      "creativity": 5
+    }
   },
   {
     "_id": {
@@ -425,7 +494,17 @@
       "Discrete Mathematics",
       "IT Project Management",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "technology",
+      "numbers"
+    ],
+    "composition": {
+      "coding": 45,
+      "mathematics": 20,
+      "theory": 20,
+      "practicals": 15
+    }
   },
   {
     "_id": {
@@ -478,7 +557,18 @@
       "Research Methods in Communication",
       "Internship / Field Attachment",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "media",
+      "creativity",
+      "society"
+    ],
+    "composition": {
+      "theory": 30,
+      "creativity": 30,
+      "practicals": 20,
+      "people": 20
+    }
   },
   {
     "_id": {
@@ -530,7 +620,18 @@
       "Research Methods",
       "Ghana's Economic History & Policy",
       "Final Year Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "society",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 35,
+      "theory": 40,
+      "people": 10,
+      "practicals": 15
+    }
   },
   {
     "_id": {
@@ -582,7 +683,17 @@
       "Statistics for Social Sciences",
       "Field Attachment / Practicum",
       "Final Year Dissertation"
-    ]
+    ],
+    "interest_tags": [
+      "society",
+      "leadership"
+    ],
+    "composition": {
+      "theory": 45,
+      "people": 30,
+      "practicals": 15,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -630,7 +741,17 @@
       "Fashion Photography",
       "Entrepreneurship in Fashion",
       "Final Collection Project"
-    ]
+    ],
+    "interest_tags": [
+      "creativity",
+      "business"
+    ],
+    "composition": {
+      "creativity": 45,
+      "practicals": 35,
+      "theory": 10,
+      "people": 10
+    }
   },
   {
     "_id": {
@@ -679,7 +800,17 @@
       "Sustainable Design Practices",
       "Professional Practice",
       "Final Year Design Project"
-    ]
+    ],
+    "interest_tags": [
+      "creativity",
+      "building"
+    ],
+    "composition": {
+      "creativity": 45,
+      "practicals": 30,
+      "theory": 15,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -694,7 +825,7 @@
     "source_id": "658",
     "code": null,
     "duration_years": 4,
-    "description": "The BSc Landscape Design programme trains students to design outdoor environments \u2014 parks, gardens, campuses, and urban spaces. The curriculum covers horticulture, site planning, environmental sustainability, and landscape construction.",
+    "description": "The BSc Landscape Design programme trains students to design outdoor environments — parks, gardens, campuses, and urban spaces. The curriculum covers horticulture, site planning, environmental sustainability, and landscape construction.",
     "career_paths": [
       "Landscape Designer",
       "Urban Planner",
@@ -727,7 +858,18 @@
       "Ecological Design",
       "Professional Practice",
       "Final Year Landscape Project"
-    ]
+    ],
+    "interest_tags": [
+      "creativity",
+      "environment",
+      "building"
+    ],
+    "composition": {
+      "creativity": 40,
+      "practicals": 35,
+      "theory": 15,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -777,7 +919,18 @@
       "Adobe Creative Suite (Photoshop, Illustrator, InDesign)",
       "Portfolio Development",
       "Final Year Design Project"
-    ]
+    ],
+    "interest_tags": [
+      "creativity",
+      "media",
+      "technology"
+    ],
+    "composition": {
+      "creativity": 50,
+      "practicals": 25,
+      "coding": 10,
+      "theory": 15
+    }
   },
   {
     "_id": {
@@ -827,7 +980,18 @@
       "GIS for Real Estate",
       "Professional Practice & Ethics",
       "Final Year Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "business",
+      "building",
+      "numbers"
+    ],
+    "composition": {
+      "theory": 30,
+      "mathematics": 25,
+      "practicals": 20,
+      "people": 25
+    }
   },
   {
     "_id": {
@@ -877,7 +1041,19 @@
       "Research Methods in Planning",
       "Professional Planning Practice",
       "Final Year Planning Project"
-    ]
+    ],
+    "interest_tags": [
+      "building",
+      "society",
+      "environment"
+    ],
+    "composition": {
+      "theory": 30,
+      "practicals": 25,
+      "creativity": 15,
+      "mathematics": 15,
+      "people": 15
+    }
   },
   {
     "_id": {
@@ -927,7 +1103,17 @@
       "Building Codes & Regulations",
       "Professional Practice & Ethics",
       "Thesis Design Project"
-    ]
+    ],
+    "interest_tags": [
+      "building",
+      "creativity"
+    ],
+    "composition": {
+      "creativity": 40,
+      "practicals": 30,
+      "mathematics": 15,
+      "theory": 15
+    }
   },
   {
     "_id": {
@@ -980,7 +1166,17 @@
       "Strategic Marketing Management",
       "Internship / Industrial Attachment",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "business",
+      "media"
+    ],
+    "composition": {
+      "theory": 30,
+      "people": 30,
+      "creativity": 20,
+      "practicals": 20
+    }
   },
   {
     "_id": {
@@ -1033,7 +1229,18 @@
       "Leadership & Change Management",
       "Research Methods",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "leadership",
+      "business",
+      "society"
+    ],
+    "composition": {
+      "theory": 40,
+      "people": 35,
+      "practicals": 15,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -1085,7 +1292,17 @@
       "Business Ethics",
       "Industrial Attachment",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "leadership",
+      "business"
+    ],
+    "composition": {
+      "theory": 35,
+      "people": 40,
+      "practicals": 15,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -1138,7 +1355,17 @@
       "Business Statistics",
       "Industrial Attachment",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 45,
+      "theory": 30,
+      "practicals": 15,
+      "people": 10
+    }
   },
   {
     "_id": {
@@ -1191,7 +1418,17 @@
       "Microfinance",
       "Industrial Attachment",
       "Final Year Project"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 40,
+      "theory": 30,
+      "practicals": 15,
+      "people": 15
+    }
   },
   {
     "_id": {
@@ -1234,7 +1471,17 @@
       "Organizational Theory",
       "Knowledge Management",
       "Doctoral Thesis"
-    ]
+    ],
+    "interest_tags": [
+      "business",
+      "leadership"
+    ],
+    "composition": {
+      "theory": 50,
+      "people": 20,
+      "practicals": 20,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -1276,7 +1523,17 @@
       "Corporate Governance",
       "Behavioural Finance",
       "Doctoral Thesis"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 40,
+      "theory": 45,
+      "practicals": 10,
+      "people": 5
+    }
   },
   {
     "_id": {
@@ -1317,7 +1574,17 @@
       "Strategic Management Accounting",
       "Research Methods",
       "Dissertation"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 40,
+      "theory": 35,
+      "practicals": 15,
+      "people": 10
+    }
   },
   {
     "_id": {
@@ -1357,7 +1624,17 @@
       "Research Methodology",
       "Seminar in Accounting",
       "Thesis"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 35,
+      "theory": 45,
+      "practicals": 10,
+      "people": 10
+    }
   },
   {
     "_id": {
@@ -1398,7 +1675,17 @@
       "African Traditional Religion",
       "Research Methods",
       "Dissertation"
-    ]
+    ],
+    "interest_tags": [
+      "faith",
+      "society",
+      "teaching"
+    ],
+    "composition": {
+      "theory": 60,
+      "people": 25,
+      "practicals": 15
+    }
   },
   {
     "_id": {
@@ -1440,7 +1727,16 @@
       "Church History",
       "Research Methodology",
       "Thesis"
-    ]
+    ],
+    "interest_tags": [
+      "faith",
+      "teaching"
+    ],
+    "composition": {
+      "theory": 65,
+      "people": 20,
+      "practicals": 15
+    }
   },
   {
     "_id": {
@@ -1484,7 +1780,17 @@
       "Strategic Management",
       "Business Research",
       "Thesis/Project"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "business"
+    ],
+    "composition": {
+      "mathematics": 35,
+      "theory": 30,
+      "people": 20,
+      "practicals": 15
+    }
   },
   {
     "_id": {
@@ -1527,7 +1833,17 @@
       "Organizational Behaviour",
       "Business Ethics",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "leadership",
+      "business"
+    ],
+    "composition": {
+      "theory": 35,
+      "people": 35,
+      "practicals": 20,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -1569,7 +1885,17 @@
       "Leadership Development",
       "Change Management",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "leadership",
+      "business"
+    ],
+    "composition": {
+      "theory": 35,
+      "people": 40,
+      "practicals": 15,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -1611,7 +1937,17 @@
       "Marketing Analytics",
       "International Marketing",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "business",
+      "media"
+    ],
+    "composition": {
+      "theory": 30,
+      "people": 30,
+      "creativity": 20,
+      "practicals": 20
+    }
   },
   {
     "_id": {
@@ -1652,7 +1988,17 @@
       "Development Economics",
       "Research Methodology",
       "Thesis"
-    ]
+    ],
+    "interest_tags": [
+      "numbers",
+      "society"
+    ],
+    "composition": {
+      "mathematics": 45,
+      "theory": 40,
+      "practicals": 10,
+      "people": 5
+    }
   },
   {
     "_id": {
@@ -1694,7 +2040,17 @@
       "Agricultural Policy",
       "Agri-Entrepreneurship",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "business",
+      "environment"
+    ],
+    "composition": {
+      "theory": 30,
+      "practicals": 25,
+      "mathematics": 20,
+      "people": 25
+    }
   },
   {
     "_id": {
@@ -1738,7 +2094,17 @@
       "Global Health",
       "Research Methods",
       "Dissertation"
-    ]
+    ],
+    "interest_tags": [
+      "health",
+      "society"
+    ],
+    "composition": {
+      "theory": 35,
+      "practicals": 25,
+      "mathematics": 15,
+      "people": 25
+    }
   },
   {
     "_id": {
@@ -1778,7 +2144,17 @@
       "Development Economics",
       "Project Planning & Management",
       "Dissertation"
-    ]
+    ],
+    "interest_tags": [
+      "society",
+      "leadership"
+    ],
+    "composition": {
+      "theory": 45,
+      "people": 25,
+      "practicals": 20,
+      "mathematics": 10
+    }
   },
   {
     "_id": {
@@ -1816,7 +2192,17 @@
       "Quantitative Research Methods",
       "Policy Research Seminar",
       "Thesis"
-    ]
+    ],
+    "interest_tags": [
+      "society",
+      "leadership"
+    ],
+    "composition": {
+      "theory": 50,
+      "people": 20,
+      "practicals": 15,
+      "mathematics": 15
+    }
   },
   {
     "_id": {
@@ -1859,7 +2245,18 @@
       "Financial Management",
       "Strategic Management",
       "Research Project"
-    ]
+    ],
+    "interest_tags": [
+      "leadership",
+      "building",
+      "business"
+    ],
+    "composition": {
+      "theory": 30,
+      "people": 30,
+      "practicals": 25,
+      "mathematics": 15
+    }
   },
   {
     "_id": {
@@ -1901,6 +2298,15 @@
       "Educational Technology",
       "Reflective Practice",
       "Portfolio Development"
-    ]
+    ],
+    "interest_tags": [
+      "teaching",
+      "leadership"
+    ],
+    "composition": {
+      "theory": 35,
+      "people": 35,
+      "practicals": 30
+    }
   }
 ]

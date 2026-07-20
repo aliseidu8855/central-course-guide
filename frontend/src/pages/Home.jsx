@@ -55,18 +55,18 @@ export default function Home() {
           {/* CTA Buttons */}
           <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4 sm:px-0">
             <Link
-              to="/schools"
+              to="/quiz"
               className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 bg-maroon text-white font-semibold rounded-xl shadow-lg hover:bg-maroon-dark transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5"
             >
-              Browse Schools
+              Find Your Course
               <span aria-hidden="true">→</span>
             </Link>
-            <a
-              href="#how-it-works"
+            <Link
+              to="/schools"
               className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 border-2 border-maroon text-maroon font-semibold rounded-xl hover:bg-maroon hover:text-white transition-all duration-200"
             >
-              How It Works
-            </a>
+              Browse Schools
+            </Link>
           </div>
 
           {/* Live Stats */}
@@ -108,18 +108,25 @@ export default function Home() {
             </span>
           </Link>
 
-          {/* Programme Details — informational */}
-          <div className="bg-surface rounded-2xl p-5 sm:p-7 shadow-sm border border-surface-alt">
+          {/* All Programmes — clickable */}
+          <Link
+            to="/programmes"
+            className="group bg-surface rounded-2xl p-5 sm:p-7 shadow-sm hover:shadow-lg transition-all duration-300 border border-surface-alt hover:border-maroon/20 hover:-translate-y-1"
+          >
             <div className="h-10 w-10 sm:h-12 sm:w-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent-dark">
               <BookOpenIcon className="h-5 w-5 sm:h-6 sm:w-6" />
             </div>
-            <h3 className="mt-3 sm:mt-4 text-lg sm:text-xl font-bold text-text-primary">
-              Programme Details
+            <h3 className="mt-3 sm:mt-4 text-lg sm:text-xl font-bold text-text-primary group-hover:text-maroon transition-colors">
+              All Programmes
             </h3>
             <p className="mt-1.5 sm:mt-2 text-text-secondary text-sm leading-relaxed">
-              View full breakdowns of subjects, credits, duration, and entry requirements.
+              Read through every programme — subjects, entry requirements, and how
+              you'll spend your study time.
             </p>
-          </div>
+            <span className="mt-3 sm:mt-4 inline-flex text-sm font-medium text-maroon opacity-0 group-hover:opacity-100 transition-opacity">
+              Browse Programmes →
+            </span>
+          </Link>
 
           {/* Career Paths — informational */}
           <div className="bg-surface rounded-2xl p-5 sm:p-7 shadow-sm border border-surface-alt">
@@ -152,13 +159,13 @@ export default function Home() {
             {[
               {
                 step: "01",
-                title: "Choose a School",
-                desc: "Browse through 10 schools and faculties at Central University to find the area that interests you.",
+                title: "Take the Interest Quiz",
+                desc: "Pick the things you enjoy — gaming, caring for people, business, art — and get matched to programmes instantly.",
               },
               {
                 step: "02",
                 title: "Explore Programmes",
-                desc: "View all available programmes under your chosen school, with descriptions and duration info.",
+                desc: "Read through recommended or all programmes, with subjects, entry requirements, and study-time breakdowns.",
               },
               {
                 step: "03",
@@ -179,16 +186,25 @@ export default function Home() {
       {/* ---------- CTA Section ---------- */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16">
         <div className="bg-maroon rounded-2xl p-8 sm:p-10 md:p-14 text-center text-white">
-          <h2 className="text-2xl sm:text-3xl font-extrabold">Ready to Start Exploring?</h2>
+          <h2 className="text-2xl sm:text-3xl font-extrabold">Not Sure What to Study?</h2>
           <p className="mt-3 sm:mt-4 text-white/80 max-w-lg mx-auto text-sm sm:text-base">
-            Don't choose a course blindly. Use the Course Guide to make an informed decision about your future.
+            Don't choose a course blindly. Take the interest quiz and get matched to
+            programmes that fit you.
           </p>
-          <Link
-            to="/schools"
-            className="mt-6 sm:mt-8 inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 bg-white text-maroon font-bold rounded-xl hover:bg-gray-100 transition-all shadow-lg text-sm sm:text-base"
-          >
-            Browse All Schools →
-          </Link>
+          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <Link
+              to="/quiz"
+              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 bg-white text-maroon font-bold rounded-xl hover:bg-gray-100 transition-all shadow-lg text-sm sm:text-base"
+            >
+              Take the Interest Quiz →
+            </Link>
+            <Link
+              to="/programmes"
+              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3 sm:py-3.5 border-2 border-white/40 text-white font-semibold rounded-xl hover:bg-white/10 transition-all text-sm sm:text-base"
+            >
+              Browse All Programmes
+            </Link>
+          </div>
         </div>
       </section>
     </>

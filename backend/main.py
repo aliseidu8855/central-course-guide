@@ -19,6 +19,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 
 from routes.admin import router as admin_router
+from routes.discovery import router as discovery_router
 from routes.schools import router as schools_router
 
 # ---------------------------------------------------------------------------
@@ -56,6 +57,7 @@ app.add_middleware(
 # Register API routers
 # ---------------------------------------------------------------------------
 app.include_router(schools_router)
+app.include_router(discovery_router)
 app.include_router(admin_router)
 
 # ---------------------------------------------------------------------------
@@ -221,7 +223,8 @@ ADMIN_HTML = """
     .modal-overlay.active { opacity: 1; pointer-events: all; }
     .modal {
       background: var(--surface); border-radius: 16px;
-      padding: 32px; width: 90%; max-width: 520px; box-shadow: var(--shadow-lg);
+      padding: 32px; width: 90%; max-width: 640px; box-shadow: var(--shadow-lg);
+      max-height: 88vh; overflow-y: auto;
       transform: scale(0.95); transition: transform 0.2s;
     }
     .modal-overlay.active .modal { transform: scale(1); }
@@ -241,6 +244,21 @@ ADMIN_HTML = """
       box-shadow: 0 0 0 3px rgba(139,0,0,0.1);
     }
     .form-group textarea { resize: vertical; min-height: 80px; }
+    /* --- Interest tags & composition editors --- */
+    .tag-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 12px; }
+    .tag-item {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 13px; color: var(--text-sec); cursor: pointer;
+    }
+    .tag-item input { width: auto; accent-color: var(--maroon); cursor: pointer; }
+    .comp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .comp-cell label {
+      display: block; font-size: 11px; font-weight: 600;
+      color: var(--text-muted); margin-bottom: 4px;
+    }
+    .comp-total { margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--text-muted); }
+    .comp-total.bad { color: var(--red); }
+    .badge-row { display: flex; gap: 4px; margin-top: 4px; }
     .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 24px; }
     /* --- Empty / Loading --- */
     .empty-state {
@@ -280,8 +298,8 @@ ADMIN_HTML = """
     </select>
     <select id="statusFilter">
       <option value="">All Statuses</option>
-      <option value="false">⏳ Pending Review</option>
-      <option value="true">✅ Reviewed</option>
+      <option value="false">Pending Review</option>
+      <option value="true">Reviewed</option>
     </select>
     <button class="btn btn-success btn-sm" onclick="reviewAll()">✓ Mark All Reviewed</button>
     <span id="countLabel" style="margin-left:auto; font-size:13px; color:var(--text-muted);"></span>
@@ -329,6 +347,15 @@ ADMIN_HTML = """
       <div class="form-group">
         <label>Career Paths (comma-separated)</label>
         <input type="text" id="editCareers" placeholder="e.g. Software Engineer, Data Analyst" />
+      </div>
+      <div class="form-group">
+        <label>Interest Tags (used by the quiz to recommend this programme)</label>
+        <div id="editTags" class="tag-grid"></div>
+      </div>
+      <div class="form-group">
+        <label>Composition % (values must total exactly 100 — or leave all blank)</label>
+        <div id="editComp" class="comp-grid"></div>
+        <div id="compTotal" class="comp-total">Total: 0%</div>
       </div>
       <div class="modal-actions">
         <button class="btn btn-ghost" onclick="closeModal()">Cancel</button>
@@ -390,7 +417,7 @@ ADMIN_HTML = """
       document.getElementById('countLabel').textContent = `${progs.length} programme(s)`;
 
       if (progs.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="5" class="empty-state"><div class="icon">📭</div>No programmes found.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="5" class="empty-state">No programmes found.</td></tr>`;
         return;
       }
 
@@ -404,8 +431,12 @@ ADMIN_HTML = """
           <td style="color:var(--text-muted)">${esc(p.code || '—')}</td>
           <td>
             <span class="badge ${p.is_reviewed ? 'badge-reviewed' : 'badge-pending'}">
-              ${p.is_reviewed ? '✓ Reviewed' : '⏳ Pending'}
+              ${p.is_reviewed ? 'Reviewed' : 'Pending'}
             </span>
+            <div class="badge-row">
+              <span class="badge ${(p.interest_tags && p.interest_tags.length) ? 'badge-reviewed' : 'badge-pending'}">Tags</span>
+              <span class="badge ${(p.composition && Object.keys(p.composition).length) ? 'badge-reviewed' : 'badge-pending'}">Comp</span>
+            </div>
           </td>
           <td>
             <div class="actions-cell">
@@ -419,6 +450,46 @@ ADMIN_HTML = """
     }
 
     function esc(s) { if(!s) return ''; const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+    // ---- Interest & composition taxonomy (fetched from the public API) ----
+    async function loadTaxonomy() {
+      const [ri, rd] = await Promise.all([
+        fetch(API + '/interests'),
+        fetch(API + '/composition-dimensions'),
+      ]);
+      const interests = await ri.json();
+      const dimensions = await rd.json();
+
+      document.getElementById('editTags').innerHTML = interests.map(i => `
+        <label class="tag-item"><input type="checkbox" value="${i.id}" /> ${esc(i.label)}</label>
+      `).join('');
+
+      document.getElementById('editComp').innerHTML = dimensions.map(d => `
+        <div class="comp-cell">
+          <label>${esc(d.label)}</label>
+          <input type="number" min="0" max="100" step="5" data-dim="${d.id}" placeholder="0" />
+        </div>
+      `).join('');
+
+      document.querySelectorAll('#editComp input').forEach(inp =>
+        inp.addEventListener('input', updateCompTotal));
+    }
+
+    function readComposition() {
+      const comp = {};
+      document.querySelectorAll('#editComp input').forEach(inp => {
+        const v = parseInt(inp.value) || 0;
+        if (v > 0) comp[inp.dataset.dim] = v;
+      });
+      return comp;
+    }
+
+    function updateCompTotal() {
+      const total = Object.values(readComposition()).reduce((a, b) => a + b, 0);
+      const el = document.getElementById('compTotal');
+      el.textContent = `Total: ${total}%`;
+      el.classList.toggle('bad', total !== 0 && total !== 100);
+    }
 
     // ---- Filters ----
     document.getElementById('schoolFilter').addEventListener('change', loadProgrammes);
@@ -454,6 +525,14 @@ ADMIN_HTML = """
       document.getElementById('editDuration').value = p.duration_years || '';
       document.getElementById('editDesc').value = p.description || '';
       document.getElementById('editCareers').value = (p.career_paths || []).join(', ');
+      document.querySelectorAll('#editTags input').forEach(cb => {
+        cb.checked = (p.interest_tags || []).includes(cb.value);
+      });
+      document.querySelectorAll('#editComp input').forEach(inp => {
+        const v = (p.composition || {})[inp.dataset.dim];
+        inp.value = v || '';
+      });
+      updateCompTotal();
       document.getElementById('editModal').classList.add('active');
     }
 
@@ -465,6 +544,16 @@ ADMIN_HTML = """
       const id = document.getElementById('editId').value;
       const careersRaw = document.getElementById('editCareers').value;
       const careers = careersRaw ? careersRaw.split(',').map(s => s.trim()).filter(Boolean) : [];
+
+      const composition = readComposition();
+      const compTotal = Object.values(composition).reduce((a, b) => a + b, 0);
+      if (compTotal !== 0 && compTotal !== 100) {
+        toast(`Composition must total exactly 100% (currently ${compTotal}%)`);
+        return;
+      }
+      const interestTags = Array.from(
+        document.querySelectorAll('#editTags input:checked')).map(cb => cb.value);
+
       const body = {
         name: document.getElementById('editName').value || undefined,
         code: document.getElementById('editCode').value || undefined,
@@ -472,15 +561,23 @@ ADMIN_HTML = """
         description: document.getElementById('editDesc').value || undefined,
         career_paths: careers.length ? careers : undefined,
         is_reviewed: true,
+        interest_tags: interestTags,   // [] clears the field
+        composition: composition,      // {} clears the field
       };
       // Remove undefined keys
       Object.keys(body).forEach(k => body[k] === undefined && delete body[k]);
 
-      await fetch(API + `/admin/programmes/${id}`, {
+      const r = await fetch(API + `/admin/programmes/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body),
       });
+      if (!r.ok) {
+        const err = await r.json().catch(() => ({}));
+        const msg = Array.isArray(err.detail) ? err.detail[0]?.msg : err.detail;
+        toast('Save failed: ' + (msg || r.status));
+        return;
+      }
       closeModal();
       toast('Programme updated');
       loadProgrammes(); loadStats();
@@ -494,6 +591,7 @@ ADMIN_HTML = """
     // ---- Init ----
     loadStats();
     loadSchools();
+    loadTaxonomy();
     loadProgrammes();
   </script>
 </body>
@@ -508,3 +606,9 @@ async def admin_panel():
     Visit http://localhost:8000/admin-panel in your browser.
     """
     return ADMIN_HTML
+
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)

@@ -17,7 +17,10 @@ import {
   FaceFrownIcon,
   DocumentIcon,
   CheckCircleIcon,
+  ChartBarIcon,
+  InterestIcon,
 } from "../components/Icons";
+import CompositionBars from "../components/CompositionBars";
 
 const BackIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
@@ -28,13 +31,20 @@ const BackIcon = () => (
 export default function ProgrammeDetail() {
   const { programmeId } = useParams();
   const [programme, setProgramme] = useState(null);
+  const [interestLabels, setInterestLabels] = useState({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchProgramme = async () => {
       try {
-        const res = await api.get(`/programmes/${programmeId}`);
-        setProgramme(res.data);
+        const [progRes, interestsRes] = await Promise.all([
+          api.get(`/programmes/${programmeId}`),
+          api.get("/interests"),
+        ]);
+        setProgramme(progRes.data);
+        setInterestLabels(
+          Object.fromEntries(interestsRes.data.map((i) => [i.id, i.label]))
+        );
       } catch (err) {
         console.error("Failed to load programme:", err);
       } finally {
@@ -119,7 +129,36 @@ export default function ProgrammeDetail() {
             </span>
           )}
         </div>
+
+        {/* Interest tags */}
+        {programme.interest_tags && programme.interest_tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-3 sm:mt-4">
+            {programme.interest_tags.map((tag) => (
+              <span
+                key={tag}
+                className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-full bg-accent/10 text-accent-dark text-xs font-semibold"
+              >
+                <InterestIcon id={tag} className="h-3.5 w-3.5" />
+                {interestLabels[tag] || tag}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
+
+      {/* Composition — What You'll Spend Your Time On */}
+      {programme.composition && Object.keys(programme.composition).length > 0 && (
+        <div className="mt-5 sm:mt-8 bg-surface rounded-2xl p-5 sm:p-8 shadow-sm border border-surface-alt">
+          <h2 className="text-lg sm:text-xl font-bold text-text-primary flex items-center gap-2 mb-1.5 sm:mb-2">
+            <ChartBarIcon className="h-5 w-5 sm:h-6 sm:w-6 text-maroon" />
+            What You'll Spend Your Time On
+          </h2>
+          <p className="text-text-secondary text-xs sm:text-sm mb-4 sm:mb-5">
+            Approximate breakdown of how study time is typically split in this programme.
+          </p>
+          <CompositionBars composition={programme.composition} />
+        </div>
+      )}
 
       {/* Description */}
       {programme.description && (

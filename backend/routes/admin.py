@@ -13,9 +13,10 @@ from typing import Optional
 
 from bson import ObjectId
 from fastapi import APIRouter, HTTPException, Query
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 from database import get_database
+from models.taxonomy import clean_composition, clean_interest_tags
 
 router = APIRouter(prefix="/admin", tags=["Admin"])
 
@@ -34,6 +35,19 @@ class ProgrammeUpdate(BaseModel):
     description: Optional[str] = None
     career_paths: Optional[list[str]] = None
     is_reviewed: Optional[bool] = None
+    # Sending [] / {} clears the field (update_programme only skips None).
+    interest_tags: Optional[list[str]] = None
+    composition: Optional[dict[str, int]] = None
+
+    @field_validator("interest_tags")
+    @classmethod
+    def _validate_interest_tags(cls, v):
+        return v if v is None else clean_interest_tags(v)
+
+    @field_validator("composition")
+    @classmethod
+    def _validate_composition(cls, v):
+        return v if v is None else clean_composition(v)
 
 
 class ProgrammeOut(BaseModel):
@@ -46,8 +60,13 @@ class ProgrammeOut(BaseModel):
     school_name: str
     code: Optional[str] = None
     duration_years: Optional[int] = None
+    degree_type: Optional[str] = None
     description: Optional[str] = None
     career_paths: list[str] = []
+    subjects: list[str] = []
+    entry_requirements: list[str] = []
+    interest_tags: list[str] = []
+    composition: dict[str, int] = {}
     source_url: Optional[str] = None
     is_reviewed: bool = False
     created_at: Optional[datetime] = None

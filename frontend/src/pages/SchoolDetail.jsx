@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import api from "../services/api";
 import { FaceFrownIcon } from "../components/Icons";
+import ProgrammeCard from "../components/ProgrammeCard";
 
 const BackIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
@@ -125,56 +126,7 @@ export default function SchoolDetail() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
             {programmes.map((prog) => (
-              <Link
-                to={`/programmes/${prog._id}`}
-                key={prog._id}
-                className="group bg-surface rounded-xl p-4 sm:p-5 border border-surface-alt hover:border-maroon/30 hover:shadow-md transition-all duration-200"
-              >
-                <div className="flex items-start justify-between gap-3">
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-sm sm:text-base text-text-primary group-hover:text-maroon transition-colors leading-tight">
-                      {prog.name}
-                    </h3>
-
-                    <div className="flex flex-wrap items-center gap-2 mt-1.5">
-                      {prog.degree_type && (
-                        <span className="text-xs font-semibold text-maroon bg-maroon/8 px-2 py-0.5 rounded-md">
-                          {prog.degree_type}
-                        </span>
-                      )}
-                      {prog.duration_years && (
-                        <span className="text-xs text-text-muted">
-                          • {prog.duration_years} year{prog.duration_years > 1 ? "s" : ""}
-                        </span>
-                      )}
-                    </div>
-
-                    {prog.description && (
-                      <p className="text-xs sm:text-sm text-text-secondary mt-2 line-clamp-2">
-                        {prog.description}
-                      </p>
-                    )}
-
-                    {prog.career_paths && prog.career_paths.length > 0 && (
-                      <div className="flex flex-wrap gap-1.5 mt-2.5 sm:mt-3">
-                        {prog.career_paths.slice(0, 2).map((cp) => (
-                          <span key={cp} className="text-xs bg-accent/10 text-accent-dark px-2 py-0.5 rounded-full font-medium">
-                            {cp}
-                          </span>
-                        ))}
-                        {prog.career_paths.length > 2 && (
-                          <span className="text-xs text-text-muted">+{prog.career_paths.length - 2} more</span>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                  <span className="text-text-muted group-hover:text-maroon transition-colors mt-1 shrink-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                      <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </span>
-                </div>
-              </Link>
+              <ProgrammeCard key={prog._id} programme={prog} />
             ))}
           </div>
         )}

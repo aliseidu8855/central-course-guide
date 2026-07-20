@@ -2,6 +2,13 @@
 
 A comprehensive guide for university courses, featuring a React frontend and a FastAPI backend with MongoDB.
 
+## Key Features
+
+- **Interest Quiz** (`/quiz`) — students pick up to 5 interests (tech, caring for people, business, art…) and get ranked programme recommendations with "why this matched" explanations. Postgraduate programmes are behind a toggle.
+- **Browse All Programmes** (`/programmes`) — search plus filters by school, level (undergraduate/postgraduate), and interest.
+- **Study-Time Composition** — each programme page shows a "What You'll Spend Your Time On" breakdown (coding, maths, theory, practicals, creativity, people skills) as percentage bars.
+- **Schools & Programme detail pages** — descriptions, subjects, entry requirements, and career paths.
+
 ## Project Structure
 
 - `frontend/`: React application (Vite).
@@ -44,7 +51,8 @@ Ensure MongoDB is running on your machine. By default, the application looks for
     *(Edit `.env` if your MongoDB setup is different)*.
 
 5.  **Import the Database**:
-    Instead of scraping the website again, you can just import the provided data:
+    Instead of scraping the website again, you can just import the provided data
+    (the dump already includes the curated interest tags and composition percentages):
     ```bash
     python import_database.py
     ```
@@ -52,8 +60,17 @@ Ensure MongoDB is running on your machine. By default, the application looks for
 6.  Start the backend server:
     ```bash
     python main.py
+    # or: uvicorn main:app --reload --port 8000
     ```
     The API will be available at `http://localhost:8000`.
+
+7.  *(Optional)* **Re-seed quiz data**: `enrich_programmes.py` holds the curated
+    interest tags + composition percentages for every programme. It only touches
+    those two fields, so admin edits to names/descriptions survive:
+    ```bash
+    python enrich_programmes.py           # apply curated data to DB + dump
+    python enrich_programmes.py --pull    # save admin-panel curation back into the dump
+    ```
 
 ### 3. Frontend Setup
 
@@ -78,6 +95,9 @@ Ensure MongoDB is running on your machine. By default, the application looks for
 The backend includes an embedded admin panel for reviewing and editing the data:
 - **URL**: `http://localhost:8000/admin-panel`
 - **Features**: Filter by school, edit programme details, and mark data as "reviewed".
+  The edit modal also manages the quiz **interest tags** (checkboxes) and the
+  **composition percentages** (must total exactly 100, or be left blank). The
+  status column shows "Tags"/"Comp" badges so you can see curation coverage at a glance.
 
 ---
 

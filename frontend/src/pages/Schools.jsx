@@ -28,7 +28,7 @@ export default function Schools() {
         const res = await api.get("/schools");
         setSchools(res.data);
         setFiltered(res.data);
-      } catch (err) {
+      } catch {
         setError("Could not load schools. Make sure the backend is running.");
       } finally {
         setLoading(false);

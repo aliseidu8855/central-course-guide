@@ -45,6 +45,12 @@ export default function Navbar() {
             <li>
               <NavLink to="/schools" className={linkClass}>Schools</NavLink>
             </li>
+            <li>
+              <NavLink to="/programmes" end className={linkClass}>Programmes</NavLink>
+            </li>
+            <li>
+              <NavLink to="/quiz" className={linkClass}>Find Your Course</NavLink>
+            </li>
           </ul>
           <a
             href="https://central.edu.gh/online"
@@ -80,6 +86,12 @@ export default function Navbar() {
           </NavLink>
           <NavLink to="/schools" className={mobileLinkClass} onClick={() => setMenuOpen(false)}>
             Schools
+          </NavLink>
+          <NavLink to="/programmes" end className={mobileLinkClass} onClick={() => setMenuOpen(false)}>
+            Programmes
+          </NavLink>
+          <NavLink to="/quiz" className={mobileLinkClass} onClick={() => setMenuOpen(false)}>
+            Find Your Course
           </NavLink>
           <a
             href="https://central.edu.gh/online"

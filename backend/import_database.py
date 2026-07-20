@@ -44,6 +44,7 @@ def main():
         db["programmes"].create_index("school_id")
         db["programmes"].create_index("slug")
         db["programmes"].create_index("is_reviewed")
+        db["programmes"].create_index("interest_tags")
         
         print("\n🏁  Database import complete!")
         

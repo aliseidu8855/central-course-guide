@@ -16,7 +16,9 @@ Naming conventions:
 
 from typing import Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
+
+from models.taxonomy import clean_composition, clean_interest_tags
 
 
 # ===================================================================
@@ -82,17 +84,24 @@ class ProgrammeBase(BaseModel):
         max_length=300,
         description="Programme title (e.g. 'BSc Computer Science').",
     )
-    code: str = Field(
-        ...,
-        min_length=1,
+    code: Optional[str] = Field(
+        default=None,
         max_length=20,
         description="Programme code (e.g. 'BSCS').",
+    )
+    slug: Optional[str] = Field(
+        default=None,
+        description="URL-friendly identifier (e.g. 'computer-science').",
     )
     duration_years: int = Field(
         ...,
         ge=1,
         le=10,
         description="Duration of the programme in years.",
+    )
+    degree_type: Optional[str] = Field(
+        default=None,
+        description="Degree awarded (e.g. 'BSc', 'MBA', 'PharmD').",
     )
     description: Optional[str] = Field(
         default=None,
@@ -103,10 +112,47 @@ class ProgrammeBase(BaseModel):
         default_factory=list,
         description="List of potential career paths for graduates.",
     )
+    subjects: list[str] = Field(
+        default_factory=list,
+        description="Subjects/courses studied under this programme.",
+    )
+    entry_requirements: list[str] = Field(
+        default_factory=list,
+        description="Admission requirements for the programme.",
+    )
+    interest_tags: list[str] = Field(
+        default_factory=list,
+        description="Interest ids from the fixed taxonomy (see /interests).",
+    )
+    composition: dict[str, int] = Field(
+        default_factory=dict,
+        description=(
+            "Study-time breakdown {dimension_id: percent}; values sum to 100. "
+            "Empty dict = not curated (see /composition-dimensions)."
+        ),
+    )
     school_id: str = Field(
         ...,
         description="ID of the parent School this programme belongs to.",
     )
+    school_name: Optional[str] = Field(
+        default=None,
+        description="Denormalized name of the parent school.",
+    )
+    is_reviewed: bool = Field(
+        default=False,
+        description="Whether an admin has reviewed this programme's data.",
+    )
+
+    @field_validator("interest_tags")
+    @classmethod
+    def _validate_interest_tags(cls, v: list[str]) -> list[str]:
+        return clean_interest_tags(v)
+
+    @field_validator("composition")
+    @classmethod
+    def _validate_composition(cls, v: dict[str, int]) -> dict[str, int]:
+        return clean_composition(v)
 
 
 class ProgrammeCreate(ProgrammeBase):
@@ -120,6 +166,10 @@ class ProgrammeRead(ProgrammeBase):
         ...,
         alias="_id",
         description="MongoDB ObjectId as a string.",
+    )
+    level: Optional[str] = Field(
+        default=None,
+        description="Derived from degree_type: 'undergraduate' or 'postgraduate'.",
     )
 
     model_config = {"populate_by_name": True}
