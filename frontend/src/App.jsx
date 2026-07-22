@@ -16,6 +16,7 @@ import {
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ChatWidget from "./components/ChatWidget";
 import Home from "./pages/Home";
 import Schools from "./pages/Schools";
 import SchoolDetail from "./pages/SchoolDetail";
@@ -34,6 +35,7 @@ function RootLayout() {
         <Outlet />
       </main>
       <Footer />
+      <ChatWidget />
     </div>
   );
 }
