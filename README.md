@@ -140,15 +140,8 @@ Web app available at **http://localhost:5173** (Vite proxies `/api` → `:8000`)
 
 ### 4. Chatbot setup (optional)
 
-1. Get a **free** NVIDIA API key at [build.nvidia.com](https://build.nvidia.com/explore/discover)
-   (sign up, generate a key — free tier included)
-2. Add it to `backend/.env`:
-   ```
-   NVIDIA_API_KEY=your-key-here
-   ```
-3. Restart the backend — the floating chat bubble on every page will start
-   answering questions grounded in the actual course data, powered by
-   Llama 3.1 8B Instruct.
+The chatbot key is already included in `.env.example` — copy it to `.env` and you're set. No manual key setup needed.
+If you want your own key, get one free at [build.nvidia.com](https://build.nvidia.com/explore/discover).
 
 If the key is missing, the widget shows a friendly "not configured" message
 instead of a broken error.
