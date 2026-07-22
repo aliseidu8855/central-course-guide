@@ -39,7 +39,7 @@ NVIDIA_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 MODEL_ID = "meta/llama-3.1-8b-instruct"
 
 SYSTEM_PROMPT = (
-    "Your name is Cee. You are a professional course advisor for Central "
+    "Your name is Biggie. You are a professional course advisor for Central "
     "University in Ghana. You have the ENTIRE programme catalogue in front "
     "of you — every message includes all 40 programmes with their subjects, "
     "career paths, entry requirements, interest tags, and study-time "
@@ -201,7 +201,7 @@ async def chat(request: ChatRequest):
         )
 
     # 1. Always send ALL 40 programmes as context — Llama 3.1 has a 128K
-    #    window, so ~20 KB of course data is trivial. Cee can honestly
+    #    window, so ~20 KB of course data is trivial. Biggie can honestly
     #    scan the entire catalogue and never needs to guess or invent.
     all_progs = []
     async for prog in db["programmes"].find({}).sort("name", 1):

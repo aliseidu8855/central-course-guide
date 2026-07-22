@@ -169,7 +169,7 @@ export default function ChatWidget() {
         <span className="flex items-center justify-center h-8 w-8 rounded-full bg-white/20 shrink-0">
           <ChatBubbleIcon className="h-4.5 w-4.5" />
         </span>
-        <span className="text-sm font-semibold hidden sm:inline">Chat with Cee</span>
+        <span className="text-sm font-semibold hidden sm:inline">Chat with Biggie</span>
       </button>
 
       {/* ---- Chat panel ---- */}
@@ -189,7 +189,7 @@ export default function ChatWidget() {
             </span>
             <div>
               <p className="text-xl font-extrabold text-white leading-tight tracking-tight">
-                Cee
+                Biggie
               </p>
               <p className="text-[10px] text-white/70 flex items-center gap-1.5">
                 <span className="inline-block h-1.5 w-1.5 rounded-full bg-green-400 shadow-[0_0_6px_rgba(74,222,128,0.6)]" />
@@ -237,7 +237,7 @@ export default function ChatWidget() {
               <div className="h-16 w-16 rounded-2xl bg-linear-to-br from-maroon/15 to-accent/20 flex items-center justify-center mb-4 ring-1 ring-maroon/10">
                 <SparklesIcon className="h-8 w-8 text-maroon" />
               </div>
-              <h3 className="text-base font-bold text-text-primary">Hey, my name is Cee</h3>
+              <h3 className="text-base font-bold text-text-primary">Hey, my name is Biggie</h3>
               <p className="mt-1.5 text-xs text-text-secondary text-center leading-relaxed max-w-[260px]">
                 I know every programme at Central University inside out — subjects, careers, entry requirements, what you'll actually study day to day. Just ask.
               </p>
